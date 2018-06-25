@@ -25,7 +25,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/plugins/jquery-3.2.1.min.js",
+              "src/plugins/popper.min.js",
+              "src/plugins/bootstrap/js/bootstrap.min.js",
+              "src/plugins/back-to-top.js",
+              "src/plugins/jquery-match-height/jquery.matchHeight-min.js",
+              "src/js/main.js",
+              "src/plugins/flexslider/jquery.flexslider-min.js",
+              "src/js/flexslider-custom.js"
+            ]
           },
           "configurations": {
             "production": {
