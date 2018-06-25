@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'about', component: AboutUsComponent }
 ];
 
-NgModule({
+@NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })

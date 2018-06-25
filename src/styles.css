@@ -191,21 +191,21 @@ select {
   height: 650px;
 }
 .bg-slider-wrapper .flexslider .slide.slide-1 {
-  /* background: #65758e url('../images/Image-1_darken.jpg') no-repeat 50% top; */
+  background: #65758e url('./assets/images/Image-1_darken.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-slider-wrapper .flexslider .slide.slide-2 {
-  /* background: #65758e url('../images/Image-2_darken.jpg') no-repeat 50% top; */
+  background: #65758e url('./assets/images/Image-2_darken.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-slider-wrapper .flexslider .slide.slide-3 {
-  /* background: #65758e url('../images/Image-4_darken.jpg') no-repeat 50% top; */
+  background: #65758e url('./assets/images/Image-4_darken.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -399,7 +399,7 @@ select {
   opacity: 1;
 }
 .latest-work .item.item-1 .figure-container a {
-  /* background: #65758e url('../images/work/work-example-1.1.jpg') no-repeat 50% 50%; */
+  background: #65758e url('./assets/images/work/work-example-1.1.jpg') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -407,7 +407,7 @@ select {
 }
 .latest-work .item.item-2 .figure-container a {
   display: block;
-  /* background: #65758e url('../images/work/work-example-2.1.jpg') no-repeat 50% 50%; */
+  background: #65758e url('./assets/images/work/work-example-2.1.jpg') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -415,7 +415,7 @@ select {
 }
 .latest-work .item.item-3 .figure-container a {
   display: block;
-  /* background: #65758e url('../images/work/work-example-3.1.jpg') no-repeat 50% 50%; */
+  background: #65758e url('./assets/images/work/work-example-3.1.jpg') no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -570,7 +570,7 @@ select {
 }
 /* ======= cta-section ======= */
 .cta-section {
-  /* background: #65758e url('../images/background/cta-background.jpg') no-repeat left top; */
+  background: #65758e url('./assets/images/background/cta-background.jpg') no-repeat left top;
   background-size: cover;
   min-height: 420px;
   color: #fff;
