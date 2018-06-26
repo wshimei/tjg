@@ -2,11 +2,9 @@
 body.no-header-wrapper {
   padding-top: 80px;
 }
-.header-wrapper-home {
-  min-height: 650px;
-}
+
 .header-wrapper-work {
-  /* background: #65758e url('../images/background/heading-background-1.jpg') no-repeat 50% top; */
+  background: #65758e url('../../assets/images/background/heading-background-1.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,23 +12,16 @@ body.no-header-wrapper {
   min-height: 400px;
 }
 .header-wrapper-case-study {
-  /* background: #65758e url('../images/background/case-study-background-1.jpg') no-repeat 50% top; */
+  background: #65758e url('../../assets/images/background/case-study-background-1.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 400px;
 }
-.header-wrapper-about {
-  /* background: #65758e url('../images/background/heading-background-2.jpg') no-repeat 50% top; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 400px;
-}
+
 .header-wrapper-blog-home {
-  /* background: #65758e url('../images/background/heading-background-3.jpg') no-repeat 50% top; */
+  background: #65758e url('../../assets/images/background/heading-background-3.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,7 +29,7 @@ body.no-header-wrapper {
   min-height: 400px;
 }
 .header-wrapper-contact {
-  /* background: #65758e url('../images/background/heading-background-4.jpg') no-repeat 50% top; */
+  background: #65758e url('../../assets/images/background/heading-background-4.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,7 +37,7 @@ body.no-header-wrapper {
   min-height: 400px;
 }
 .header-wrapper-faq {
-  /* background: #65758e url('../images/faq_darken.jpg') no-repeat 50% top; */
+  background: #65758e url('../../assets/images/faq_darken.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
