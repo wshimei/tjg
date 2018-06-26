@@ -12,6 +12,8 @@ import { ProductComponent } from './product/product.component';
 import { PrintingMethodsComponent } from './printing-methods/printing-methods.component';
 import { BlogComponent } from './blog/blog.component';
 
+import { QuestionService } from './question.service'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,9 +29,10 @@ import { BlogComponent } from './blog/blog.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [QuestionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

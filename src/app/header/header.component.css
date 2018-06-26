@@ -29,14 +29,7 @@ body.no-header-wrapper {
   min-height: 400px;
 }
 
-.header-wrapper-faq {
-  background: #65758e url('../../assets/images/faq_darken.jpg') no-repeat 50% top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 400px;
-}
+
 .header {
   color: #fff;
   width: 100%;

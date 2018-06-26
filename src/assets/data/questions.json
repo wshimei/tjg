@@ -1,0 +1,11 @@
+[
+  {"id": 1, "question": "What is the lead time?", "answer": "Depending on the nature of the print\n1) Silkscreen Printing orders will take 10 days or less.\n2) Embroidery & Digital Printing orders will take 14 days or less.\n\nWe accept rush orders as well. Depending on complexity, we can complete within 2-5 days."},
+  {"id": 2, "question": "What is the minimum quantity of order?", "answer": "No minimum quantity. However, it is depends on the nature of design."},
+  {"id": 3, "question": "What are the payment methods?", "answer": "1) Bank Transfer\n2) Cheque\n3) Payment at our Office location\n4) GeBiz or E-invoice via Vendors.gov.sg"},
+  {"id": 4, "question": "What are the payment terms?", "answer": "50% deposit payment can be made through bank transfer or cheque. Cash deposit is accepted at our location. 50% balance payment upon receipt of goods.\n\n For Corporate Companies, we accept Purchase Order Invoices. Cheque / Cash presented upon delivery of goods.\n\n We also accept Government instituition through GeBiz or E-invoice."},
+  {"id": 5, "question": "What printing colours are available?", "answer": "For Silkscreen Printing, you may choose a pantone colour code of your preference. Do take note colour variation on computer screen may differ from end result printing colour.  This is due to the difference in brightness and contrast settings for each screen.\n\n For Heat Transfer Vinyl, please contact our staff for more information on availability of colours. Colours are subjected to availability."},
+  {"id": 6, "question": "Which printing method is the most durable?", "answer": "In terms of ranking\n1) Embroidery\n2) Silkscreen Printing\n3) Digital Heat Transfer / Vinyl Transfer Printing"},
+  {"id": 7, "question": "Can I provide my own shirts to print?", "answer": "Yes. However, it is required that we first check if the material is able to be printed on."},
+  {"id": 8, "question": "How much is the cost per shirt ?", "answer": "It varies according to these factors\n1) Quantity\n2) Printing Location (Eg. Front / Back / Sleeve)\n3) Design (According to number of colours)\n4) Dimension of Design"}
+
+]
