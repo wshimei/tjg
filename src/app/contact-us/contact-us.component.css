@@ -1,0 +1,8 @@
+.header-wrapper-contact {
+  background: #65758e url('../../assets/images/background/heading-background-4.jpg') no-repeat 50% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}

@@ -43,7 +43,7 @@
               "src/js/form-mobile-fix.js",
               "src/plugins/owl-carousel/owl.carousel.js",
               "src/js/owl-custom.js",
-              "src/js/main.js",
+              "src/js/main.js"
             ]
           },
           "configurations": {
