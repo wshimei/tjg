@@ -1,8 +1,259 @@
 [
-  {"categoryId": "1",
-  "categoryName": "Accessories"},
-  {"categoryId": "2",
-  "categoryName": "Bottoms"},
-  {"categoryId": "3",
-  "categoryName": }
+  {
+    "categoryId": 1,
+    "categoryName": "T-Shirt",
+    "subCategories": [{
+        "subCatId": 101,
+        "subCatName": "Camoflage Cotton Round Neck"
+      },
+      {
+        "subCatId": 102,
+        "subCatName": "Cotton Long Sleeve"
+      },
+      {
+        "subCatId": 103,
+        "subCatName": "Cotton Round Neck"
+      },
+      {
+        "subCatId": 104,
+        "subCatName": "Dri Fit Long Sleeve"
+      },
+      {
+        "subCatId": 105,
+        "subCatName": "Dri Fit Round Neck"
+      },
+      {
+        "subCatId": 101,
+        "subCatName": "Multi-Pattern Dri Fit Round Neck"
+      },
+      {
+        "subCatId": 107,
+        "subCatName": "Raglan Sleeve Round Neck"
+      },
+      {
+        "subCatId": 108,
+        "subCatName": "Ringer Round Neck"
+      },
+      {
+        "subCatId": 109,
+        "subCatName": "V-Neck Cotton"
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Polo T-Shirt",
+    "subCategories": [{
+        "subCatId": 201,
+        "subCatName": "Cotton Polo",
+        "items":[
+          {
+            "itemId": 20101,
+            "itemName": "Gildan Premium 100% Cotton Polo T-Shirt"
+          },
+          {
+            "itemId": 20102,
+            "itemName": "Honeycomb Polo T-Shirt"
+          },
+          {
+            "itemId": 20103,
+            "itemName": "Premium Soft Touch Polo T-Shirt"
+          }
+        ]
+      },
+      {
+        "subCatId": 202,
+        "subCatName": "Dri Fit Polo"
+      },
+      {
+        "subCatId": 203,
+        "subCatName": "Long Sleeve Polo"
+      },
+      {
+        "subCatId": 204,
+        "subCatName": "Mandarin Collar"
+      },
+      {
+        "subCatId": 205,
+        "subCatName": "Multi-Pattern Cotton Polo"
+      },
+      {
+        "subCatId": 206,
+        "subCatName": "Multi-Pattern Dri Fit Polo"
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Outerwear",
+    "subCategories": [{
+        "subCatId": 301,
+        "subCatName": "Baseball College Jacket",
+        "items": [{
+          "itemId": 30101,
+          "itemName": "Baseball College Jacket"
+        }]
+      },
+      {
+        "subCatId": 302,
+        "subCatName": "Pullover Hoodies",
+        "items": [{
+            "itemId": 30201,
+            "itemName": "Gildan Pullover 100% Cotton Hoodie"
+          },
+          {
+            "itemId": 30202,
+            "itemName": "Premium Comfy Hoodie"
+          }
+        ]
+      },
+      {
+        "subCatId": 303,
+        "subCatName": "Sweater Pullover",
+        "items": [{
+          "itemId": 30301,
+          "itemName": "Sweater Pullover"
+        }]
+      },
+      {
+        "subCatId": 304,
+        "subCatName": "Varsity Jacket",
+        "items": [{
+          "itemId": 30401,
+          "itemName": "Varsity Jacket"
+        }]
+      },
+      {
+        "subCatId": 305,
+        "subCatName": "Zip Hoodies",
+        "items": [{
+            "itemId": 30501,
+            "itemName": "Gildan Pullover 100% Cotton Zip Hoodie"
+          },
+          {
+            "itemId": 30502,
+            "itemName": "Premium Comfy Hoodie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Windbreakers",
+    "subCategories": [{
+        "subCatId": 401,
+        "subCatName": "Reversible Windbreaker"
+      },
+      {
+        "subCatId": 402,
+        "subCatName": "Single Side Windbreaker"
+      },
+      {
+        "subCatId": 403,
+        "subCatName": "Vest Windbreaker"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Singlets",
+    "subCategories": [{
+        "subCatId": 501,
+        "subCatName": "Cotton Singlets"
+      },
+      {
+        "subCatId": 502,
+        "subCatName": "Dri Fit Singlets"
+      }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Bottoms",
+    "subCategories": [{
+        "subCatId": 601,
+        "subCatName": "Jogging Track Pants",
+        "items": [{
+          "itemId": 60101,
+          "itemName": "Jogging Track Pants"
+        }]
+      },
+      {
+        "subCatId": 602,
+        "subCatName": "Sweatpants",
+        "items": [{
+          "itemId": 60201,
+          "itemName": "Sweatpants"
+        }]
+      }
+    ]
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Accessories",
+    "subCategories": [{
+        "subCatId": 701,
+        "subCatName": "Canvas Drawstring Bag",
+        "items": [{
+          "itemId": 70101,
+          "itemName": "Canvas Drawstring Bag"
+        }]
+      },
+      {
+        "subCatId": 702,
+        "subCatName": "Canvas Tote Bag",
+        "items": [{
+          "itemId": 70201,
+          "itemName": "Canvas Tote Bag"
+        }]
+      },
+      {
+        "subCatId": 703,
+        "subCatName": "Caps",
+        "items": [{
+            "itemId": 70301,
+            "itemName": "Baseball Cap Two Tone"
+          },
+          {
+            "itemId": 70302,
+            "itemName": "Baseball Cap With Lining"
+          },
+          {
+            "itemId": 70303,
+            "itemName": "Baseball Cap"
+          },
+          {
+            "itemId": 70304,
+            "itemName": "Fisherman Hat"
+          },
+          {
+            "itemId": 70305,
+            "itemName": "Fisherman Hat Reversible"
+          },
+          {
+            "itemId": 70306,
+            "itemName": "Korean Style Cap"
+          },
+          {
+            "itemId": 70307,
+            "itemName": "Mesh Caps"
+          }
+        ]
+      },
+      {
+        "subCatId": 704,
+        "subCatName": "Towels",
+        "items": [{
+            "itemId": 70401,
+            "itemName": "Bath Towel"
+          },
+          {
+            "itemId": 70402,
+            "itemName": "Facial Towel"
+          }
+        ]
+      }
+    ]
+  }
 ]

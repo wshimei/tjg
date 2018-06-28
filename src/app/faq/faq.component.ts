@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionService } from '../question.service';
+import { QuestionService } from './question.service';
 
 @Component({
   selector: 'app-faq',
@@ -8,7 +8,7 @@ import { QuestionService } from '../question.service';
 })
 export class FaqComponent implements OnInit {
 
-  public questions = []
+  public questions = [];
 
   constructor(private _questionService: QuestionService) { }
 

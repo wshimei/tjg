@@ -6,6 +6,7 @@
             <h2 class="title">Products</h2>
             <div id="filters" class="button-group clearfix">
                     <button class="btn button is-checked" data-filter="*">All</button>
+
                     <button class="btn button" data-filter=".t-shirt">T-Shirt</button>
                     <button class="btn button" data-filter=".polo">Polo T-Shirt</button>
                     <button class="btn button" data-filter=".outerwear">Outerwear</button>
@@ -17,7 +18,7 @@
             <div class="items-wrapper isotope row">
 
               <!-- T-SHIRT -->
-              <div class="item t-shirt col-lg-4 col-md-6 col-12">
+              <div class="item t-shirt col-lg-4 col-md-6 col-12" *ngFor="let product of products">
                   <div class="item-inner">
                       <figure class="figure">
                           <a href="product/camo.html"><img class="img-fluid" src="../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee-opt.jpg" alt="Camoflage Cotton Round Neck" /></a>
@@ -28,8 +29,14 @@
                           </a><!--//info-mask-->
                       </figure>
                       <div class="content text-left">
-                          <h3 class="sub-title"><a href="product/camo.html">Camoflage Cotton Round Neck</a></h3>
-                          <div class="meta">T-Shirt</div>
+                          <h3 class="sub-title"><a href="product/camo.html">{{product.categoryName}}</a></h3>
+                          <div class="meta">{{product.categoryName}}</div>
+                          <pre>{{product.subCategories[0].subCatName}}</pre>
+                          <li *ngFor="let subCategories of product.subCategories">
+                              {{subCategories.subCatName}}
+                          </li>
                       </div><!--//content-->
                   </div><!--//item-inner-->
               </div><!--//item-->
+
+              <pre> </pre>

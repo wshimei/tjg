@@ -1,10 +1,16 @@
 export interface EProduct {
-  id: number,
-  name: string,
-  category: {
-    levelOne: string,
-    levelTwo: string,
-    levelThree: string
-  },
-  image_link: string
+  categoryId: number;
+  categoryName: string;
+  subCategories: Array<SubCategories>;
+}
+
+export interface SubCategories {
+  subCatId: number;
+  subCatName: string;
+  items: Array <Items>;
+}
+
+export interface Items {
+  itemId: number;
+  itemName: string;
 }
