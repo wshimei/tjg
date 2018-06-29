@@ -1,53 +1,185 @@
-[
-  {
+[{
     "categoryId": 1,
     "categoryName": "T-Shirt",
+    "className": "t-shirt",
     "subCategories": [{
         "subCatId": 101,
-        "subCatName": "Camoflage Cotton Round Neck"
+        "subCatName": "Camoflage Cotton Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee-opt.jpg",
+        "items": [{
+          "itemId": 10101,
+          "itemName": "Camoflage Cotton Round Neck"
+        }]
       },
       {
         "subCatId": 102,
-        "subCatName": "Cotton Long Sleeve"
+        "subCatName": "Cotton Long Sleeve",
+        "imageLink": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Long Sleeve Cotton-opt.jpg",
+        "items": [{
+            "itemId": 10201,
+            "itemName": "Comfy Soft Cotton Long Sleeve"
+          },
+          {
+            "itemId": 10202,
+            "itemName": "Premium Gildan Cotton Long Sleeve"
+          },
+          {
+            "itemId": 10203,
+            "itemName": "Ultra Cotton Gildan Long Sleeve"
+          }
+        ]
       },
       {
         "subCatId": 103,
-        "subCatName": "Cotton Round Neck"
+        "subCatName": "Cotton Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /Cotton Round Neck-opt.jpg",
+        "items": [{
+            "itemId": 10301,
+            "itemName": "Comfy Soft Cotton"
+          },
+          {
+            "itemId": 10302,
+            "itemName": "Comfy Soft Cotton Kids"
+          },
+          {
+            "itemId": 10303,
+            "itemName": "Kids Premium Gildan Cotton"
+          },
+          {
+            "itemId": 10304,
+            "itemName": "Ladies Premium Gildan Cotton"
+          },
+          {
+            "itemId": 10305,
+            "itemName": "Premium Gildan Cotton"
+          },
+          {
+            "itemId": 10306,
+            "itemName": "Softstyle Gildan Cotton"
+          },
+          {
+            "itemId": 10307,
+            "itemName": "Superb Cotton"
+          }
+        ]
+
       },
       {
         "subCatId": 104,
-        "subCatName": "Dri Fit Long Sleeve"
+        "subCatName": "Dri Fit Long Sleeve",
+        "imageLink": "../assets/products/T-Shirt/Dri Fit Long Sleeve/Dri Fit Dry Pique Long Sleeve/CRR36400 Long Sleeve Dri Fit-opt.jpg",
+        "items": [{
+          "itemId": 10401,
+          "itemName": "Dri Fit Dry Pique Long Sleeve"
+        }]
       },
       {
         "subCatId": 105,
-        "subCatName": "Dri Fit Round Neck"
+        "subCatName": "Dri Fit Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /G Colour-opt.jpg",
+        "items": [{
+            "itemId": 10501,
+            "itemName": "Cool Technology Breatable Dri Fit"
+          },
+          {
+            "itemId": 10502,
+            "itemName": "Eyelet Dri Fit"
+          },
+          {
+            "itemId": 10503,
+            "itemName": "Interlock Smooth Dri Fit"
+          },
+          {
+            "itemId": 10504,
+            "itemName": "Melange Mesh Premium Dri Fit"
+          }
+        ]
       },
       {
-        "subCatId": 101,
-        "subCatName": "Multi-Pattern Dri Fit Round Neck"
+        "subCatId": 106,
+        "subCatName": "Multi-Pattern Dri Fit Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD36 Two Tone Colour/QD36-opt.jpg",
+        "items": [{
+            "itemId": 10601,
+            "itemName": "QD36 Two Tone Colour"
+          },
+          {
+            "itemId": 10602,
+            "itemName": "QD43 Two Tone Sublimated Colour"
+          },
+          {
+            "itemId": 10603,
+            "itemName": "QD46 Multi-Colour"
+          },
+          {
+            "itemId": 10604,
+            "itemName": "QD1100 Dry Pique Two Tone Colour"
+          },
+          {
+            "itemId": 10605,
+            "itemName": "QD1200 Dry Pique Two Tone Colour Trimming"
+          }
+        ]
       },
       {
         "subCatId": 107,
-        "subCatName": "Raglan Sleeve Round Neck"
+        "subCatName": "Raglan Sleeve Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Alpha Baseball Raglan 3-4 Sleeve/AlphaBaseball Colour-opt.jpg",
+        "items": [{
+            "itemId": 10701,
+            "itemName": "Aplha Baseball Raglan 3-4 Sleeve"
+          },
+          {
+            "itemId": 10702,
+            "itemName": "Comfy Soft Raglan 3-4 Sleeve Cotton"
+          },
+          {
+            "itemId": 10703,
+            "itemName": "Comfy Soft Raglan Cotton Short Sleeve"
+          },
+          {
+            "itemId": 10704,
+            "itemName": "Dri Fit Raglan Long Sleeve"
+          },
+          {
+            "itemId": 10705,
+            "itemName": "Dri Fit Raglan Short Sleeve"
+          },
+          {
+            "itemId": 10706,
+            "itemName": "Premium Gildan Raglan Cotton Short Sleeve"
+          }
+        ]
       },
       {
         "subCatId": 108,
-        "subCatName": "Ringer Round Neck"
+        "subCatName": "Ringer Round Neck",
+        "imageLink": "../assets/products/T-Shirt/Ringer Round Neck/Ringer Round Neck-opt.jpg",
+        "items": [{
+          "itemId": 10801,
+          "itemName": "Ringer Round Neck"
+        }]
       },
       {
         "subCatId": 109,
-        "subCatName": "V-Neck Cotton"
+        "subCatName": "V-Neck Cotton",
+        "imageLink": "../assets/products/T-Shirt/V-Neck Cotton/63V00 Gildan V Neck-opt.jpg",
+        "items": [{
+          "itemId": 10901,
+          "itemName": "V-Neck Cotton"
+        }]
       }
     ]
   },
   {
     "categoryId": 2,
     "categoryName": "Polo T-Shirt",
+    "className": "polo",
     "subCategories": [{
         "subCatId": 201,
         "subCatName": "Cotton Polo",
-        "items":[
-          {
+        "imageLink": "../assets/products/Polo T-Shirt/Cotton Polo /Gildan Premium 100_ Cotton Polo T-Shirt/G Polo Full Cotton-opt.jpg",
+        "items": [{
             "itemId": 20101,
             "itemName": "Gildan Premium 100% Cotton Polo T-Shirt"
           },
@@ -63,32 +195,147 @@
       },
       {
         "subCatId": 202,
-        "subCatName": "Dri Fit Polo"
+        "subCatName": "Dri Fit Polo",
+        "imageLink": "../assets/products/Polo T-Shirt/Dri Fit Polo/Dry Technology Honeycomb Dri Fit Polo/Dry Tech-opt.jpg",
+        "items": [{
+            "itemId": 20201,
+            "itemName": "Cool Technology Breatable Dri Fit Polo"
+          },
+          {
+            "itemId": 20202,
+            "itemName": "Dry Technology Honeycomb Dri Fit Polo"
+          },
+          {
+            "itemId": 20203,
+            "itemName": "Eyelet Dri Fit Polo"
+          },
+          {
+            "itemId": 20204,
+            "itemName": "Interlock Smooth Dri Fit Polo"
+          }
+        ]
       },
       {
         "subCatId": 203,
-        "subCatName": "Long Sleeve Polo"
+        "subCatName": "Long Sleeve Polo",
+        "imageLink": "../assets/products/Polo T-Shirt/Long Sleeve Polo/Honeycomb Polo Long Sleeve/Honeycomp Polo Long Sleeve-opt.jpg",
+        "items": [{
+            "itemId": 20301,
+            "itemName": "Honeycomb Polo Long Sleeve"
+          },
+          {
+            "itemId": 20302,
+            "itemName": "SJ Polo Long Sleeve"
+          }
+        ]
       },
       {
         "subCatId": 204,
-        "subCatName": "Mandarin Collar"
+        "subCatName": "Mandarin Collar",
+        "imageLink": "../assets/products/Polo T-Shirt/Mandarin Collar/QD18-opt.jpg",
+        "items": [{
+          "itemId": 20401,
+          "itemName": "Mandarin Collar"
+        }]
       },
       {
         "subCatId": 205,
-        "subCatName": "Multi-Pattern Cotton Polo"
+        "subCatName": "Multi-Pattern Cotton Polo",
+        "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/HC10 A-opt.jpg",
+        "items": [{
+            "itemId": 20501,
+            "itemName": "HC10 Two Tone Polo"
+          },
+          {
+            "itemId": 20502,
+            "itemName": "HC11 Three Tone Polo"
+          },
+          {
+            "itemId": 20503,
+            "itemName": "HC12 Two Tone Polo"
+          },
+          {
+            "itemId": 20504,
+            "itemName": "HC15 Three Tone Polo"
+          },
+          {
+            "itemId": 20505,
+            "itemName": "HC17 Three Tone Stripe Polo"
+          },
+          {
+            "itemId": 20506,
+            "itemName": "Premium Soft Touch Two Tone Polo"
+          },
+          {
+            "itemId": 20507,
+            "itemName": "SJ01 Two Tone Polo"
+          },
+          {
+            "itemId": 20508,
+            "itemName": "SJ04 Two Tone Polo"
+          }
+        ]
       },
       {
         "subCatId": 206,
-        "subCatName": "Multi-Pattern Dri Fit Polo"
+        "subCatName": "Multi-Pattern Dri Fit Polo",
+        "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD27 Two Tone Dri Fit Polo/QD27 A-opt.jpg",
+        "items": [{
+            "itemId": 20601,
+            "itemName": "QD27 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20602,
+            "itemName": "QD30 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20603,
+            "itemName": "QD33 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20604,
+            "itemName": "QD34 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20605,
+            "itemName": "QD37 Sublimated Colour Dri Fit Polo"
+          },
+          {
+            "itemId": 20606,
+            "itemName": "QD44 Sublimated Colours Dri Fit Polo"
+          },
+          {
+            "itemId": 20607,
+            "itemName": "QD45 Sublimated Colour Dri Fit Polo"
+          },
+          {
+            "itemId": 20608,
+            "itemName": "QD47 Sublimated Colour Dri Fit Polo"
+          },
+          {
+            "itemId": 20609,
+            "itemName": "TJG1100 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20610,
+            "itemName": "TJG1500 Two Tone Dri Fit Polo"
+          },
+          {
+            "itemId": 20611,
+            "itemName": "TJG2600 Two Tone Dri Fit Polo"
+          }
+        ]
       }
     ]
   },
   {
     "categoryId": 3,
     "categoryName": "Outerwear",
+    "className": "outerwear",
     "subCategories": [{
         "subCatId": 301,
         "subCatName": "Baseball College Jacket",
+        "imageLink": "../assets/products/Outerwear/Baseball College Jacket/Baseball College Jacket-opt.jpg",
         "items": [{
           "itemId": 30101,
           "itemName": "Baseball College Jacket"
@@ -97,6 +344,7 @@
       {
         "subCatId": 302,
         "subCatName": "Pullover Hoodies",
+        "imageLink": "../assets/products/Outerwear/Pullover Hoodies/Gildan Pullover 100_ Cotton Hoodie/Gildan Hoodie-opt.jpg",
         "items": [{
             "itemId": 30201,
             "itemName": "Gildan Pullover 100% Cotton Hoodie"
@@ -110,6 +358,7 @@
       {
         "subCatId": 303,
         "subCatName": "Sweater Pullover",
+        "imageLink": "../assets/products/Outerwear/Sweater Pullover/Pullover-opt.jpg",
         "items": [{
           "itemId": 30301,
           "itemName": "Sweater Pullover"
@@ -118,6 +367,7 @@
       {
         "subCatId": 304,
         "subCatName": "Varsity Jacket",
+        "imageLink": "../assets/products/Outerwear/Varsity Jacket /Varsity Jacket-opt.jpg",
         "items": [{
           "itemId": 30401,
           "itemName": "Varsity Jacket"
@@ -126,6 +376,7 @@
       {
         "subCatId": 305,
         "subCatName": "Zip Hoodies",
+        "imageLink": "../assets/products/Outerwear/Zip Hoodies/Premium Comfy Hoodie/AC Hoodie Zip-opt.jpg",
         "items": [{
             "itemId": 30501,
             "itemName": "Gildan Pullover 100% Cotton Zip Hoodie"
@@ -141,39 +392,103 @@
   {
     "categoryId": 4,
     "categoryName": "Windbreakers",
+    "className": "windbreakers",
     "subCategories": [{
         "subCatId": 401,
-        "subCatName": "Reversible Windbreaker"
+        "subCatName": "Reversible Windbreaker",
+        "imageLink": "../assets/products/Windbreakers/Reversible Windbreaker/WR01 Reversible Windbreaker/WR01 Reversible Windbreak-opt.jpg",
+        "items": [{
+            "itemId": 40101,
+            "itemName": "WR01 Reversible Windbreaker"
+          },
+          {
+            "itemId": 40102,
+            "itemName": "WR03 Reversible Windbreaker"
+          },
+          {
+            "itemId": 40103,
+            "itemName": "WR04 Reversible Windbreaker"
+          }
+        ]
       },
       {
         "subCatId": 402,
-        "subCatName": "Single Side Windbreaker"
+        "subCatName": "Single Side Windbreaker",
+        "imageLink": "../assets/products/Windbreakers/Single Side Windbreaker/WB04 Single Side Windbreaker/WB04 Single Windbreaker-opt.jpg",
+        "items": [{
+            "itemId": 40201,
+            "itemName": "WB04 Single Side Windbreaker"
+          },
+          {
+            "itemId": 40202,
+            "itemName": "WB05 Single Side Windbreaker"
+          },
+          {
+            "itemId": 40203,
+            "itemName": "WB06 Single Side Windbreaker"
+          }
+        ]
       },
       {
         "subCatId": 403,
-        "subCatName": "Vest Windbreaker"
+        "subCatName": "Vest Windbreaker",
+        "imageLink": "../assets/products/Windbreakers/Vest Windbreaker/Windbreaker Vest/VJ06 Windbreaker Vest-opt.jpg",
+        "items": [{
+          "itemId": 40301,
+          "itemName": "Windbreaker Vest"
+        }]
       }
     ]
   },
   {
     "categoryId": 5,
     "categoryName": "Singlets",
+    "className": "singlets",
     "subCategories": [{
         "subCatId": 501,
-        "subCatName": "Cotton Singlets"
+        "subCatName": "Cotton Singlets",
+        "imageLink": "../assets/products/Singlets/Cotton Singlets/Gildan Ultra Cotton Tank Top/Tank Top Gildan-opt.jpg",
+        "items": [{
+          "itemId": 50101,
+          "itemName": "Gildan Ultra Cotton Tank Top"
+        }]
       },
       {
         "subCatId": 502,
-        "subCatName": "Dri Fit Singlets"
+        "subCatName": "Dri Fit Singlets",
+        "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG166 Dri Fit Singlet/SM166-opt.jpg",
+        "items": [{
+            "itemId": 50201,
+            "itemName": "TJG166 Dri Fit Singlet"
+          },
+          {
+            "itemId": 50202,
+            "itemName": "TJG167 Dri Fit Singlet"
+          },
+          {
+            "itemId": 50203,
+            "itemName": "TJG168 Dri Fit Singlet"
+          },
+          {
+            "itemId": 50204,
+            "itemName": "TJG1500 Dri Fit Singlet"
+          },
+          {
+            "itemId": 50205,
+            "itemName": "TJG1600 Dri Fit Singlet"
+          }
+        ]
       }
     ]
   },
   {
     "categoryId": 6,
     "categoryName": "Bottoms",
+    "className": "bottoms",
     "subCategories": [{
         "subCatId": 601,
         "subCatName": "Jogging Track Pants",
+        "imageLink": "../assets/products/Bottoms/Jogging Track Pants/LP Track Pants-opt.jpg",
         "items": [{
           "itemId": 60101,
           "itemName": "Jogging Track Pants"
@@ -182,6 +497,7 @@
       {
         "subCatId": 602,
         "subCatName": "Sweatpants",
+        "imageLink": "../assets/products/Bottoms/Sweatpants/Sweatpants Gildan-opt.jpg",
         "items": [{
           "itemId": 60201,
           "itemName": "Sweatpants"
@@ -192,9 +508,11 @@
   {
     "categoryId": 7,
     "categoryName": "Accessories",
+    "className": "accessories",
     "subCategories": [{
         "subCatId": 701,
         "subCatName": "Canvas Drawstring Bag",
+        "imageLink": "../assets/products/Accessories /Canvas Drawstring Bag/Drawstring Canvas-opt.jpg",
         "items": [{
           "itemId": 70101,
           "itemName": "Canvas Drawstring Bag"
@@ -203,6 +521,7 @@
       {
         "subCatId": 702,
         "subCatName": "Canvas Tote Bag",
+        "imageLink": "../assets/products/Accessories /Canvas Tote Bag/Tote Bag-opt.jpg",
         "items": [{
           "itemId": 70201,
           "itemName": "Canvas Tote Bag"
@@ -211,6 +530,7 @@
       {
         "subCatId": 703,
         "subCatName": "Caps",
+        "imageLink": "../assets/products/Accessories /Caps/Baseball Cap Two Tone/CP04-opt.jpg",
         "items": [{
             "itemId": 70301,
             "itemName": "Baseball Cap Two Tone"
@@ -244,6 +564,7 @@
       {
         "subCatId": 704,
         "subCatName": "Towels",
+        "imageLink": "../assets/products/Accessories /Towels/Bath Towel/Bath Towel-opt.jpg",
         "items": [{
             "itemId": 70401,
             "itemName": "Bath Towel"
