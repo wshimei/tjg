@@ -15,6 +15,7 @@ import { BlogComponent } from './blog/blog.component';
 import { QuestionService } from './question.service'
 import { HttpClientModule } from '@angular/common/http';
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CallToActionComponent } from './call-to-action/call-to-action.component
     ProductComponent,
     PrintingMethodsComponent,
     BlogComponent,
-    CallToActionComponent
+    CallToActionComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,40 +1,21 @@
 <body class="case-study-page">
-
-    <!-- ******Work list Section****** -->
-    <section id="work-list" class="section work-list">
-        <div class="container text-center">
-            <h2 class="title">Products</h2>
-            <div id="filters" class="button-group clearfix">
-                    <button class="btn button is-checked" data-filter="*">All</button>
-                    <button class="btn button" data-filter=".t-shirt">T-Shirt</button>
-                    <button class="btn button" data-filter=".polo">Polo T-Shirt</button>
-                    <button class="btn button" data-filter=".outerwear">Outerwear</button>
-                    <button class="btn button" data-filter=".windbreakers">Windbreakers</button>
-                    <button class="btn button" data-filter=".singlets">Singlets</button>
-                    <button class="btn button" data-filter=".bottoms">Bottoms</button>
-                    <button class="btn button last" data-filter=".accessories">Accessories</button>
-                </div><!--//filters-->
-            <div class="items-wrapper isotope row" *ngFor="let product of products"> 
-
-              <!-- T-SHIRT -->
-              
-              <div class="item col-lg-4 col-md-6 col-12 {{product.className}}" *ngFor="let subCategory of product.subCategories">
-                  <div class="item-inner">
-                      <figure class="figure">
-                          <a href="product/camo.html"><img class="img-fluid" src="{{subCategory.imageLink}}" alt="Camoflage Cotton Round Neck" /></a>
-                          <a class="info-mask" href="product/camo.html">
-                            <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
-                              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
-                              <span class="btn btn-cta btn-cta-primary" >View product</span>
-                          </a><!--//info-mask-->
-                      </figure>
-                      <div class="content text-left">
-                          <h3 class="sub-title"><a href="product/camo.html">{{subCategory.subCatName}}</a></h3>
-                          <div class="meta">{{product.categoryName}}</div>
-                      </div><!--//content-->
-                  </div><!--//item-inner-->
-              </div><!--//item-->
-
-            </div><!--//items-wrapper-->
-        </div><!--//container-fluid-->
-    </section><!--//work-list"-->
+  <!-- ******Work list Section****** -->
+  <section id="work-list" class="section work-list">
+    <div class="container text-center">
+      <h2 class="title">Products</h2>
+      <div id="filters" class="button-group clearfix">
+        <button class="btn button is-checked" data-filter="*">All</button>
+        <button class="btn button" data-filter=".t-shirt">T-Shirt</button>
+        <button class="btn button" data-filter=".polo">Polo T-Shirt</button>
+        <button class="btn button" data-filter=".outerwear">Outerwear</button>
+        <button class="btn button" data-filter=".windbreakers">Windbreakers</button>
+        <button class="btn button" data-filter=".singlets">Singlets</button>
+        <button class="btn button" data-filter=".bottoms">Bottoms</button>
+        <button class="btn button last" data-filter=".accessories">Accessories</button>
+      </div>
+      <!--//filters-->
+      <app-product-list></app-product-list>
+    </div>
+    <!--//container-fluid-->
+  </section>
+  <!--//work-list"-->
