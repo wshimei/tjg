@@ -1,5 +1,5 @@
 export interface EQuestion {
-  id: number,
-  question: string,
-  answer: string
+  id: number;
+  question: string;
+  answer: string;
 }

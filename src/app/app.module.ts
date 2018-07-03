@@ -12,7 +12,7 @@ import { ProductComponent } from './product/product.component';
 import { PrintingMethodsComponent } from './printing-methods/printing-methods.component';
 import { BlogComponent } from './blog/blog.component';
 
-import { QuestionService } from './question.service'
+import { QuestionService } from './faq/question.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
 import { ProductListComponent } from './product-list/product-list.component';

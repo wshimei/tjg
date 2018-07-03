@@ -3,14 +3,7 @@ body.no-header-wrapper {
   padding-top: 80px;
 }
 
-.header-wrapper-work {
-  background: #65758e url('../../assets/images/background/heading-background-1.jpg') no-repeat 50% top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 400px;
-}
+
 .header-wrapper-case-study {
   background: #65758e url('../../assets/images/background/case-study-background-1.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
@@ -19,16 +12,6 @@ body.no-header-wrapper {
   background-size: cover;
   min-height: 400px;
 }
-
-.header-wrapper-blog-home {
-  background: #65758e url('../../assets/images/background/heading-background-3.jpg') no-repeat 50% top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 400px;
-}
-
 
 .header {
   color: #fff;
