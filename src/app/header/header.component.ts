@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   products: any[];
+  selectedCategory: string;
 
   constructor(database: AngularFireDatabase, private router: Router) {
     database.list('/products')
@@ -23,5 +24,6 @@ export class HeaderComponent implements OnInit {
 
   onSelect(product) {
     this.router.navigate(['/products', product.categoryName]);
+    this.selectedCategory = product.categoryName;
   }
 }

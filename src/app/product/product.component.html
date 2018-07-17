@@ -1,34 +1,34 @@
 <body class="case-study-page">
-    <div class="header-wrapper header-wrapper-work">
-        <section class="promo section">
-            <div class="container text-center">
-                <h2 class="title">Our Products</h2>
-                <p class="intro">Our approach to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in leo turpis. Ut ex neque, cursus vulputate facilisis sed, tempor quis ligula.</p>
-            </div><!--//container-->
-        </section><!--//promo-->
-    </div><!--//header-wrapper-->
-    
+  <div class="header-wrapper header-wrapper-work">
+    <section class="promo section">
+      <div class="container text-center">
+        <h2 class="title">Our Products</h2>
+        <p class="intro">Our approach to lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in leo turpis. Ut ex neque, cursus
+          vulputate facilisis sed, tempor quis ligula.</p>
+      </div>
+      <!--//container-->
+    </section>
+    <!--//promo-->
+  </div>
+  <!--//header-wrapper-->
+
   <!-- ******Work list Section****** -->
   <section id="work-list" class="section work-list">
     <div class="container text-center">
-      <h2 class="title">Products</h2>
-      <div id="filters" class="button-group clearfix" >
+      <h2 class="title" *ngIf="!productCategoryName">All Products</h2>
+      <h2 class="title" *ngIf="productCategoryName">{{productCategoryName}}</h2>
+      <div id="filters" class="button-group clearfix">
         <!-- <button class="btn button" data-filter="*" (click)="selectAll()" [class.is-checked]="products === [] || selectedCategory === products">All</button>
         <button class="btn button" data-filter=".t-shirt"  *ngFor="let product of products" (click)="onSelect(product)" [class.is-checked]="selectedCategory === product.categoryName">{{product.categoryName}}</button> -->
         <li class="btn button dropdown" *ngFor="let product of products">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" >{{product.categoryName}} <i class="fa fa-angle-down"></i></a>
-            <div class="dropdown-menu dropdown-menu-right">
-              <a class="dropdown-item" routerLink="/about" routerLinkActive="active" *ngFor="let subCategory of product.subCategories">{{subCategory.subCatName}}</a>
-            </div>
-          </li><!--//dropdown-->
-
-        <!-- <button class="btn button" data-filter=".t-shirt" (click)="onSelect(category)">T-Shirt</button>
-        <button class="btn button" data-filter=".polo" (click)="onSelect(category)">Polo T-Shirt</button>
-        <button class="btn button" data-filter=".outerwear" (click)="onSelect(category)">Outerwear</button>
-        <button class="btn button" data-filter=".windbreakers" (click)="onSelect(category)">Windbreakers</button>
-        <button class="btn button" data-filter=".singlets" (click)="onSelect(category)">Singlets</button>
-        <button class="btn button" data-filter=".bottoms" (click)="onSelect(category)">Bottoms</button>
-        <button class="btn button last" data-filter=".accessories" (click)="onSelect(category)">Accessories</button> -->
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">{{product.categoryName}}
+            <i class="fa fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" routerLink="/about" routerLinkActive="active" *ngFor="let subCategory of product.subCategories">{{subCategory.subCatName}}</a>
+          </div>
+        </li>
+        <!--//dropdown-->
       </div>
       <!--//filters-->
 

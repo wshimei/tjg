@@ -51,7 +51,7 @@
                 <i class="fa fa-angle-down"></i>
               </a>
               <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" routerLinkActive="active" *ngFor="let product of products" (click)=onSelect(product) >{{product.categoryName}}</a>
+                <a class="dropdown-item" [ngClass]="product.categoryName === selectedCategory ? 'active' : ''" *ngFor="let product of products" (click)=onSelect(product) >{{product.categoryName}}</a>
               </div>
             </li>
             <li class="nav-item" routerLinkActive="active">
