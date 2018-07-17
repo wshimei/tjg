@@ -9,6 +9,8 @@ import { PrintingMethodsComponent } from './printing-methods/printing-methods.co
 import { FaqComponent } from './faq/faq.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,6 +18,7 @@ const routes: Routes = [
   { path: 'about', component: AboutUsComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'products', component: ProductComponent },
+  { path: 'products/:categoryName', component: ProductComponent},
   { path: 'printing-methods', component: PrintingMethodsComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'contact-us', component: ContactUsComponent },
@@ -28,4 +31,5 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule {}
-export const routingComponents = [HomePageComponent, AboutUsComponent, PageNotFoundComponent];
+// tslint:disable-next-line:max-line-length
+export const routingComponents = [HomePageComponent, AboutUsComponent, BlogComponent, ProductComponent, ProductListComponent, ProductDetailsComponent, PrintingMethodsComponent, FaqComponent, ContactUsComponent, PageNotFoundComponent];

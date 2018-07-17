@@ -13,8 +13,14 @@
     <div class="container text-center">
       <h2 class="title">Products</h2>
       <div id="filters" class="button-group clearfix" >
-        <button class="btn button" data-filter="*" (click)="selectAll()" [class.is-checked]="products === [] || selectedCategory === products">All</button>
-        <button class="btn button" data-filter=".t-shirt"  *ngFor="let product of products" (click)="onSelect(product)" [class.is-checked]="selectedCategory === product.categoryName">{{product.categoryName}}</button>
+        <!-- <button class="btn button" data-filter="*" (click)="selectAll()" [class.is-checked]="products === [] || selectedCategory === products">All</button>
+        <button class="btn button" data-filter=".t-shirt"  *ngFor="let product of products" (click)="onSelect(product)" [class.is-checked]="selectedCategory === product.categoryName">{{product.categoryName}}</button> -->
+        <li class="btn button dropdown" *ngFor="let product of products">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" >{{product.categoryName}} <i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" routerLink="/about" routerLinkActive="active" *ngFor="let subCategory of product.subCategories">{{subCategory.subCatName}}</a>
+            </div>
+          </li><!--//dropdown-->
 
         <!-- <button class="btn button" data-filter=".t-shirt" (click)="onSelect(category)">T-Shirt</button>
         <button class="btn button" data-filter=".polo" (click)="onSelect(category)">Polo T-Shirt</button>
@@ -25,6 +31,7 @@
         <button class="btn button last" data-filter=".accessories" (click)="onSelect(category)">Accessories</button> -->
       </div>
       <!--//filters-->
+      <pre>{{productCategoryName}}</pre>
 
       <app-product-list></app-product-list>
 

@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/products', pathMatch: 'full' }
+  {path: 'submodule', loadChildren: 'app/submodule/submodule.module#SubModule'},
 ];
 
 @NgModule({
@@ -12,4 +12,4 @@ const routes: Routes = [
 })
 
 export class ProductRoutingModule {}
-export const routingComponents = [];
+export const productRoutingComponents: ModuleWithProviders = RouterModule.forRoot(routes);

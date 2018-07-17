@@ -1,4 +1,6 @@
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  products: any[];
 
-  constructor() { }
+  constructor(database: AngularFireDatabase, private router: Router) {
+    database.list('/products')
+            .valueChanges()
+            .subscribe(products => {
+              this.products = products;
+              console.log(this.products);
+            });
+   }
 
   ngOnInit() {
   }
 
+  onSelect(product) {
+    this.router.navigate(['/products', product.categoryName]);
+  }
 }
