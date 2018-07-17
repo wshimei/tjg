@@ -2,7 +2,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product-list/product.service';
 import { EProduct } from '../product-list/product';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-product',
@@ -17,7 +17,8 @@ export class ProductComponent implements OnInit {
 
   public productCategoryName;
 
-  constructor(private _productService: ProductService, database: AngularFireDatabase, private route: ActivatedRoute) {
+  // tslint:disable-next-line:max-line-length
+  constructor(private _productService: ProductService, database: AngularFireDatabase, private route: ActivatedRoute, private router: Router) {
     database.list('/products')
             .valueChanges()
             .subscribe(products => {
@@ -37,9 +38,9 @@ export class ProductComponent implements OnInit {
   }
 
   onSelect(product) {
+    this.router.navigate(['/products', product.categoryName]);
     this.selectedCategory = product.categoryName;
-    console.log(this.selectedCategory);
- }
+  }
 
   selectAll() {
     console.log(this.products);
