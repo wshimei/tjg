@@ -1,3 +1,4 @@
+import { AngularFireDatabase } from 'angularfire2/database';
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from './product.service';
 
@@ -8,13 +9,21 @@ import { ProductService } from './product.service';
 })
 export class ProductListComponent implements OnInit {
 
-  public products = [];
+  // public products = [];
+  products: any[];
 
-  constructor(private _productService: ProductService) { }
+  constructor(private _productService: ProductService, database: AngularFireDatabase) {
+    database.list('/products')
+            .valueChanges()
+            .subscribe(products => {
+              this.products = products;
+              console.log(this.products);
+            });
+  }
 
   ngOnInit() {
-    this._productService.getProducts()
-        .subscribe(data => this.products = data);
+    // this._productService.getProducts()
+    //     .subscribe(data => this.products = data);
   }
 
 }
