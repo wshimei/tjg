@@ -33,7 +33,6 @@ export class ProductComponent implements OnInit {
     this.route.paramMap.subscribe((params: ParamMap) => {
       const categoryName = params.get('categoryName');
       this.productCategoryName = categoryName;
-      console.log(categoryName);
     });
   }
 

@@ -15,7 +15,6 @@ export class HeaderComponent implements OnInit {
             .valueChanges()
             .subscribe(products => {
               this.products = products;
-              console.log(this.products);
             });
    }
 
