@@ -19,6 +19,8 @@ const routes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'products', component: ProductComponent },
   { path: 'products/:categoryName', component: ProductComponent},
+  { path: 'products/:subCatName', component: ProductComponent},
+  { path: 'products/:itemName', component: ProductDetailsComponent},
   { path: 'printing-methods', component: PrintingMethodsComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'contact-us', component: ContactUsComponent },

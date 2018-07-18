@@ -17,13 +17,13 @@ export class ProductListComponent implements OnInit {
   // public products = [];
   products: any[];
   selectedCategory: String;
+  selectedSubCategory: String;
 
   constructor(private _productService: ProductService, database: AngularFireDatabase, private route: ActivatedRoute ) {
     database.list('/products')
             .valueChanges()
             .subscribe(products => {
               this.products = products;
-              // console.log(this.products);
             });
   }
 
@@ -33,7 +33,6 @@ export class ProductListComponent implements OnInit {
     this.route.paramMap.subscribe((params: ParamMap) => {
       const categoryName = params.get('categoryName');
       this.selectedCategory = categoryName;
-      console.log(this.selectedCategory);
     });
 
   }

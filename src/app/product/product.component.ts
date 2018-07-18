@@ -16,6 +16,7 @@ export class ProductComponent implements OnInit {
   selectedCategory;
 
   public productCategoryName;
+  public subCatName;
 
   // tslint:disable-next-line:max-line-length
   constructor(private _productService: ProductService, database: AngularFireDatabase, private route: ActivatedRoute, private router: Router) {
@@ -35,6 +36,10 @@ export class ProductComponent implements OnInit {
       const categoryName = params.get('categoryName');
       this.productCategoryName = categoryName;
     });
+    this.route.paramMap.subscribe((params: ParamMap) => {
+      const subCatName = params.get('subCatName');
+      this.subCatName = subCatName;
+    });
   }
 
   onSelect(product) {
@@ -42,8 +47,12 @@ export class ProductComponent implements OnInit {
     this.selectedCategory = product.categoryName;
   }
 
+  onSelectSubCat(subCat) {
+    this.router.navigate(['/products', subCat.subCatName]);
+    this.selectedCategory = subCat.subCatName;
+  }
+
   selectAll() {
-    console.log(this.products);
     this.selectedCategory = this.products;
   }
 

@@ -1,60 +1,90 @@
-<div *ngFor="let product of products" >
+<div *ngFor="let product of products">
+  <div *ngFor="let subCategory of product.subCategories">
 
-<div class="items-wrapper isotope row" fxLayout="row" *ngIf="!selectedCategory" >
-  <div class="item col-lg-4 col-md-6 col-12 {{product.className}}" *ngFor="let subCategory of product.subCategories" >
-    <div class="item-inner">
-      <figure class="figure" >
-        <a href="products/camo.html">
-          <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
-        </a>
-        <a class="info-mask" href="products/camo.html">
-          <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
-          <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
-          <span class="btn btn-cta btn-cta-primary">View product</span>
-        </a>
-        <!--//info-mask-->
-      </figure>
-      <div class="content text-left">
-        <h3 class="sub-title">
-          <a href="products/camo.html">{{subCategory.subCatName}}</a>
-        </h3>
-        <div class="meta">{{product.categoryName}}</div>
-      </div>
-      <!--//content-->
-    </div>
-    <!--//item-inner-->
-  </div>
-  <!--//item-->
-</div>
-<!--//items-wrapper-->
-
-<div class="items-wrapper isotope row" fxLayout="row" *ngIf="product.categoryName === selectedCategory" >
-    <div class="item col-lg-4 col-md-6 col-12 {{product.className}}" *ngFor="let subCategory of product.subCategories" >
-      <div class="item-inner">
-        <figure class="figure" >
-          <a href="products/camo.html">
-            <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
-          </a>
-          <a class="info-mask" href="products/camo.html">
-            <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
-            <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
-            <span class="btn btn-cta btn-cta-primary">View product</span>
-          </a>
-          <!--//info-mask-->
-        </figure>
-        <div class="content text-left">
-          <h3 class="sub-title">
-            <a href="products/camo.html">{{subCategory.subCatName}}</a>
-          </h3>
-          <div class="meta">{{product.categoryName}}</div>
+    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="!selectedCategory">
+      <div class="item col-lg-4 col-md-6 col-12" *ngFor="let subCategory of product.subCategories">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="products/camo.html">
+              <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
+            </a>
+            <a class="info-mask" href="products/camo.html">
+              <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
+              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
+              <span class="btn btn-cta btn-cta-primary">View product</span>
+            </a>
+            <!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title">
+              <a href="products/camo.html">{{subCategory.subCatName}}</a>
+            </h3>
+            <div class="meta">{{product.categoryName}}</div>
+          </div>
+          <!--//content-->
         </div>
-        <!--//content-->
+        <!--//item-inner-->
       </div>
-      <!--//item-inner-->
+      <!--//item-->
     </div>
-    <!--//item-->
+    <!--//items-wrapper-->
+
+    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="product.categoryName === selectedCategory">
+      <div class="item col-lg-4 col-md-6 col-12" *ngFor="let subCategory of product.subCategories">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="products/camo.html">
+              <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
+            </a>
+            <a class="info-mask" href="products/camo.html">
+              <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
+              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
+              <span class="btn btn-cta btn-cta-primary">View product</span>
+            </a>
+            <!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title">
+              <a href="products/camo.html">{{subCategory.subCatName}}</a>
+            </h3>
+            <div class="meta">{{product.categoryName}}</div>
+          </div>
+          <!--//content-->
+        </div>
+        <!--//item-inner-->
+      </div>
+      <!--//item-->
+    </div>
+    <!--//items-wrapper-->
+
+
+    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="subCategory.subCatName === selectedCategory">
+      <div class="item col-lg-4 col-md-6 col-12" *ngFor="let item of subCategory.items">
+        <div class="item-inner" >
+          <figure class="figure">
+            <a href="products/camo.html">
+              <img class="img-fluid" src="{{item.imageLink}}" alt="{{item.itemName}}" />
+            </a>
+            <a class="info-mask" href="products/camo.html">
+              <!-- <img class="img-fluid" src="assets/images/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Logn Sleeve Cotton.png"></img> -->
+              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
+              <span class="btn btn-cta btn-cta-primary">View product</span>
+            </a>
+            <!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title">
+              <a href="products/camo.html">{{item.itemName}}</a>
+            </h3>
+            <div class="meta">{{subCategory.subCatName}}</div>
+          </div>
+          <!--//content-->
+        </div>
+        <!--//item-inner-->
+      </div>
+      <!--//item-->
+    </div>
+    <!--//items-wrapper-->
+    <!--//items-wrapper-->
   </div>
-  <!--//items-wrapper-->
-
 </div>
-

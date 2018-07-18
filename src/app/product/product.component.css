@@ -6,3 +6,7 @@
     background-size: cover;
     min-height: 400px;
   }
+
+  .btn {
+    font-size: 0.95rem;
+  }

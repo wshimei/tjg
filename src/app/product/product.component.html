@@ -25,7 +25,7 @@
             <i class="fa fa-angle-down"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" routerLink="/about" routerLinkActive="active" *ngFor="let subCategory of product.subCategories">{{subCategory.subCatName}}</a>
+            <a class="dropdown-item" *ngFor="let subCategory of product.subCategories" (click)=onSelectSubCat(subCategory)>{{subCategory.subCatName}}</a>
           </div>
         </li>
         <!--//dropdown-->
