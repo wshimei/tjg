@@ -1,58 +1,62 @@
 <body class="case-study-page no-header-wrapper">
-  <!-- HEADER PARTIALS -->
-  <script type="text/javascript" src="../partials/productheader.js"></script>
 
-    <article class="case-study-article article">
-        <div class="container">
-            <h1 class="project-title text-center">Camoflage Cotton Round Neck</h1>
-            <h2 class="project-type text-center">T-Shirt</h2>
+  <div *ngFor="let product of products">
+    <div *ngFor="let category of product.subCategories">
+      <div *ngFor="let item of category.items">
+
+        <article class="case-study-article article" *ngIf="item.itemName === itemName">
+          <div class="container">
+            <h1 class="project-title text-center">{{item.itemName}}</h1>
+            <h2 class="project-type text-center">{{product.categoryName}}</h2>
             <div class="row">
-                <div class="content-wrapper col-lg-5 col-md-6 col-12 order-md-12">
-                    <ul class="meta list-unstyled">
-                        <li><strong>Client:</strong> 3rd Wave Media</li>
-                        <li><strong>What we did:</strong> App development, UX design</li>
-                        <li><strong>Site link:</strong> <a href="https://wrapbootstrap.com/theme/velocity-designed-for-products-WB0N38R04" target="_blank">www.velocity.com</a></li>
-                    </ul><!--//meta-->
-                    <div class="content">
-                        <section class="content-section">
-                            <h3 class="section-title">Challenge</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in leo turpis. Ut ex neque, cursus vulputate facilisis sed, tempor quis ligula. Pellentesque sodales sagittis fringilla. Praesent id enim ut orci pretium faucibus a et massa. </p>
-                        </section><!--//content-section-->
-                        <section class="content-section">
-                            <h3 class="section-title">Project Goals</h3>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-arrow-circle-right"></i> Consectetur adipiscing elit</li>
-                                <li><i class="fa fa-arrow-circle-right"></i> Integer eget lorem vitae</li>
-                                <li><i class="fa fa-arrow-circle-right"></i> Lorem vitae elit</li>
-                                <li><i class="fa fa-arrow-circle-right"></i> Suscipit suscipit</li>
-                            </ul>
-                        </section><!--//content-section-->
+              <div class="content-wrapper col-lg-5 col-md-6 col-12 order-md-12">
+                <div class="content">
+                  <section class="content-section">
+                    <h3 class="section-title">Sizing</h3>
+                    <p>{{item.sizing}}</p>
+                  </section>
+                  <!--//content-section-->
+                  <section class="content-section">
+                    <h3 class="section-title">Material</h3>
+                    <p>{{item.material}}</p>
+                  </section>
+                  <!--//content-section-->
+                  <section class="content-section" *ngIf="item.description">
+                    <h3 class="section-title">Description</h3>
+                    <p style="white-space:pre-wrap">{{item.description}}</p>
+                  </section>
+                  <!--//content-section-->
+                </div>
+                <!--//content-->
+              </div>
+              <!--//content-wrapper-->
+              <div class="media-wrapper col-lg-7 col-md-6 col-12 order-md-1">
+                <div class="featured">
+                  <a href="{{item.sizeChart}}" data-gallery>
+                    <img class="img-fluid" src="{{item.sizeChart}}" alt="Size Chart" />
+                  </a>
+                </div>
+                <div id="links" class="thumbs row">
+                  <div class="item col-6">
+                    <a href="{{item.image1}}" data-gallery>
+                      <img class="img-fluid" src="{{item.image1}}" alt="{{item.itemName}}" />
+                    </a>
+                  </div>
+                </div>
+                <!--//thumbs-->
+              </div>
+              <!--//media-wrapper-->
 
-                        <section class="content-section">
-                            <h3 class="section-title">Our Solution</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in leo turpis. Ut ex neque, cursus vulputate facilisis sed, tempor quis ligula. Pellentesque sodales sagittis fringilla. Praesent id enim ut orci pretium faucibus a et massa. Sed quis velit imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
-                        </section><!--//content-section-->
-                        <section class="content-section">
-                            <h3 class="section-title">Results</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in leo turpis. Ut ex neque, cursus vulputate facilisis sed, tempor quis ligula. Pellentesque sodales sagittis fringilla. Praesent id enim ut orci pretium faucibus a et massa.</p>
-                            <a class="btn btn-cta btn-cta-primary" href="contact.html">Get in touch</a>
-                        </section><!--//content-section-->
-                    </div><!--//content-->
-                </div><!--//content-wrapper-->
-                <div class="media-wrapper col-lg-7 col-md-6 col-12 order-md-1">
-                    <div class="featured">
-                        <a href="../assets/images/products/T-Shirt/Camoflage Cotton Round Neck/Camo Size Chart.png" data-gallery><img class="img-fluid" src="../assets/images/products/T-Shirt/Camoflage Cotton Round Neck/Camo Size Chart.png" alt="Camo Size Chart" /></a>
-                    </div>
-                    <div id="links" class="thumbs row">
-                        <div class="item col-6">
-                            <a href="../assets/images/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee.png" data-gallery><img class="img-fluid" src="../assets/images/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee.png" alt="Camo Tee" /></a>
-                        </div>
-                    </div><!--//thumbs-->
-                </div><!--//media-wrapper-->
-
-            </div><!--//row-->
+            </div>
+            <!--//row-->
             <div class="text-right">
               <button class="btn btn-cta btn-cta-primary" type="button" onclick="history.back()">Back</button>
             </div>
-        </div><!--//container-->
-    </article><!--//case-study-->
+          </div>
+          <!--//container-->
+        </article>
+        <!--//case-study-->
+
+      </div>
+    </div>
+  </div>

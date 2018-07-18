@@ -8,6 +8,9 @@
       "items": [{
         "imageLink": "../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee-opt.jpg",
         "itemId": 10101,
+        "sizeChart": "../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo Size Chart.png",
+        "image1": "../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo Tee.png",
+        "image2": "../assets/products/T-Shirt/Camoflage Cotton Round Neck/Camo.png",
         "itemName": "Camoflage Cotton Round Neck",
         "material": "Premium Quality Cotton Polyester Blend",
         "sizing": "Unisex S - XXL"
@@ -17,9 +20,12 @@
     }, {
       "imageLink": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Long Sleeve Cotton-opt.jpg",
       "items": [{
-        "description": "Soft and comfortable. Suited for Singapore&#39;s hot weather due to it&#39;s light-weighted cotton material.",
+        "description": "Soft and comfortable. Suited for Singapore's hot weather due to it's light-weighted cotton material.",
         "imageLink": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Long Sleeve Cotton-opt.jpg",
         "itemId": 10201,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Long Sleeve Cotton Chart.png",
+        "image1": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Long Sleeve Cotton.png",
+        "image2": "../assets/products/T-Shirt/Cotton Long Sleeve/Comfy Soft Cotton Long Sleeve/Orensport LS.png",
         "itemName": "Comfy Soft Cotton Long Sleeve",
         "material": "100% Soft Cotton (160gsm)",
         "sizing": "Unisex XS - 3XL"
@@ -27,12 +33,18 @@
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Cotton Long Sleeve/Premium Gildan Cotton Long Sleeve/Long Sleeve Cotton 76400-opt.jpg",
         "itemId": 10202,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Long Sleeve/Premium Gildan Cotton Long Sleeve/Gildan Long Sleeve Cotton Chart.png",
+        "image1": "../assets/products/T-Shirt/Cotton Long Sleeve/Premium Gildan Cotton Long Sleeve/Gildan LS.png",
+        "image2": "../assets/products/T-Shirt/Cotton Long Sleeve/Premium Gildan Cotton Long Sleeve/Long Sleeve Cotton 76400.png",
         "itemName": "Premium Gildan Cotton Long Sleeve",
-        "material": "100 % Premium Cotton (180gsm)",
+        "material": "100% Premium Cotton (180gsm)",
         "sizing": "Unisex S - XXL"
       }, {
         "imageLink": "../assets/products/T-Shirt/Cotton Long Sleeve/Ultra Cotton Gildan Long Sleeve/Long Sleeve Ultra Cotton-opt.jpg",
         "itemId": 10203,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Long Sleeve/Ultra Cotton Gildan Long Sleeve/Gildan Long Sleeve Cotton Chart.png",
+        "image1": "../assets/products/T-Shirt/Cotton Long Sleeve/Ultra Cotton Gildan Long Sleeve/Gildan Ultra Cotton LS.png",
+        "image2": "../assets/products/T-Shirt/Cotton Long Sleeve/Ultra Cotton Gildan Long Sleeve/Long Sleeve Ultra Cotton.png",
         "itemName": "Ultra Cotton Gildan Long Sleeve",
         "material": "100% Cotton (200gsm)",
         "sizing": "Unisex S - XXL"
@@ -42,16 +54,22 @@
     }, {
       "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /Cotton Round Neck-opt.jpg",
       "items": [{
-        "description": "Soft and comfortable. Suited for Singapore&#39;s hot weather due to it&#39;s light-weighted cotton material.",
+        "description": "Soft and comfortable. Suited for Singapore's hot weather due to it's light-weighted cotton material.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /Cotton Round Neck-opt.jpg",
         "itemId": 10301,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /Cotton Round Neck.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton /Orensport Comfy Cotton.png",
         "itemName": "Comfy Soft Cotton",
         "material": "100% Soft Cotton (160gsm)",
         "sizing": "Unisex XS - 3XL"
       }, {
-        "description": "Soft and comfortable. Suited for Singapore&#39;s hot weather due to it&#39;s light-weighted cotton material.",
+        "description": "Soft and comfortable. Suited for Singapore's hot weather due to it's light-weighted cotton material.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton Kids/Kids Cotton-opt.jpg",
         "itemId": 10302,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton Kids/Kids Cotton Round Neck Orensport (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton Kids/Kids Cotton.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Comfy Soft Cotton Kids/Kids Model.jpg",
         "itemName": "Comfy Soft Cotton Kids",
         "material": "100% Soft Cotton (160gsm)",
         "sizing": "Youth Size 26 - Size 32"
@@ -59,22 +77,30 @@
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Kids Premium Gildan Cotton/Kids GCotton-opt.jpg",
         "itemId": 10303,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Kids Premium Gildan Cotton/Kids Gildan Cotton Round Neck (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Kids Premium Gildan Cotton/Gildan Kids.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Kids Premium Gildan Cotton/Kids GCotton.png",
         "itemName": "Kids Premium Gildan Cotton",
-        "material": "100 % Premium Cotton (180gsm)",
+        "material": "100% Premium Cotton (180gsm)",
         "sizing": "Youth XS - XL"
       }, {
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Ladies Premium Gildan Cotton/Ladies Gildan-opt.jpg",
         "itemId": 10304,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Ladies Premium Gildan Cotton/Ladies Gildan Size Chart.png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Ladies Premium Gildan Cotton/Ladies Gildan.png",
         "itemName": "Ladies Premium Gildan Cotton",
-        "material": "100 % Premium Cotton (180gsm)",
+        "material": "100% Premium Cotton (180gsm)",
         "sizing": "Unisex XS - 3XL"
       }, {
         "sizing": "Unisex XS - 3XL",
-        "material": "100 % Premium Cotton (180gsm)",
+        "material": "100% Premium Cotton (180gsm)",
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Premium Gildan Cotton/GCotton Round Neck-opt.jpg",
         "itemId": 10305,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Premium Gildan Cotton/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Premium Gildan Cotton/GCotton Round Neck.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Premium Gildan Cotton/Gildan Cotton.png",
         "itemName": "Premium Gildan Cotton"
       }, {
         "sizing": "Unisex XS - XXL",
@@ -82,6 +108,9 @@
         "description": "Soft and comfortable.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Softstyle Gildan Cotton/Softstyle Gildan Cotton-opt.jpg",
         "itemId": 10306,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Softstyle Gildan Cotton/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Softstyle Gildan Cotton/Gildan Softstyle.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Softstyle Gildan Cotton/Softstyle Gildan Cotton.png",
         "itemName": "Softstyle Gildan Cotton"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -89,6 +118,9 @@
         "description": "Thick and comfortable. High quality fabric with smooth and soft touch.",
         "imageLink": "../assets/products/T-Shirt/Cotton Round Neck/Superb Cotton/Premium Cotton-opt.jpg",
         "itemId": 10307,
+        "sizeChart": "../assets/products/T-Shirt/Cotton Round Neck/Superb Cotton/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Cotton Round Neck/Superb Cotton/Premium Cotton.png",
+        "image2": "../assets/products/T-Shirt/Cotton Round Neck/Superb Cotton/Superb cotton.png",
         "itemName": "Superb Cotton"
       }],
       "subCatId": 103,
@@ -101,6 +133,9 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition.",
         "imageLink": "../assets/products/T-Shirt/Dri Fit Long Sleeve/Dri Fit Dry Pique Long Sleeve/CRR36400 Long Sleeve Dri Fit-opt.jpg",
         "itemId": 10401,
+        "sizeChart": "../assets/products/T-Shirt/Dri Fit Long Sleeve/Dri Fit Dry Pique Long Sleeve/Long Sleeve Drifit Chart.png",
+        "image1": "../assets/products/T-Shirt/Dri Fit Long Sleeve/Dri Fit Dry Pique Long Sleeve/CRR36400 Long Sleeve Dri Fit.png",
+        "image2": "../assets/products/T-Shirt/Dri Fit Long Sleeve/Dri Fit Dry Pique Long Sleeve/CRR36400.png",
         "itemName": "Dri Fit Dry Pique Long Sleeve"
       }],
       "subCatId": 104,
@@ -113,6 +148,10 @@
         "description": "Top quality and soft light-weighted fabric. Bringing comfort to the next level. Perfect for outdoor activities and hot weather condition. Breathable fabric allows sweat to dry off quickly. Our most popular and highly recommended Dri Fit material.",
         "imageLink": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /G Colour-opt.jpg",
         "itemId": 10501,
+        "sizeChart": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /G Size Chart.JPG",
+        "image1": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /G Colour.jpg",
+        "image2": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /G Drifit.png",
+        "image3": "../assets/products/T-Shirt/Dri Fit Round Neck/Cool Technology Breathable Dri Fit /IMG_8453.JPG",
         "itemName": "Cool Technology Breatable Dri Fit"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -120,6 +159,10 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/T-Shirt/Dri Fit Round Neck/Eyelet Dri Fit /Drifit RNS-opt.jpg",
         "itemId": 10502,
+        "sizeChart": "../assets/products/T-Shirt/Dri Fit Round Neck/Eyelet Dri Fit /T-Shirt Measurement Chart (QD).png",
+        "image1": "../assets/products/T-Shirt/Dri Fit Round Neck/Eyelet Dri Fit /DF.jpg",
+        "image2": "../assets/products/T-Shirt/Dri Fit Round Neck/Eyelet Dri Fit /IMG_8454.JPG",
+        "image3": "../assets/products/T-Shirt/Dri Fit Round Neck/Eyelet Dri Fit /Orensport DF.png",
         "itemName": "Eyelet Dri Fit"
       }, {
         "sizing": "4XS - 3XL (Unisex Kids To Adult)",
@@ -127,6 +170,10 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build more for comfort, fashion and light sporting activities.",
         "imageLink": "../assets/products/T-Shirt/Dri Fit Round Neck/Interlock Smooth Dri Fit/Colour Chart (ABT)-opt.jpg",
         "itemId": 10503,
+        "sizeChart": "../assets/products/T-Shirt/Dri Fit Round Neck/Interlock Smooth Dri Fit/T-Shirt Measurement Chart (QD).png",
+        "image1": "../assets/products/T-Shirt/Dri Fit Round Neck/Interlock Smooth Dri Fit/Abs DF.png",
+        "image2": "../assets/products/T-Shirt/Dri Fit Round Neck/Interlock Smooth Dri Fit/Colour Chart (ABT).jpg",
+        "image3": "../assets/products/T-Shirt/Dri Fit Round Neck/Interlock Smooth Dri Fit/IMG_8455.JPG",
         "itemName": "Interlock Smooth Dri Fit"
       }, {
         "sizing": "4XS - 3XL (US Unisex Sizing)",
@@ -134,6 +181,9 @@
         "description": "Most fashionable and in-trend Dri Fit Cutting Shirt. Stretchy and moisture-wicking comfort.",
         "imageLink": "../assets/products/T-Shirt/Dri Fit Round Neck/Melange Mesh Premium Dri Fit /AC DF1-opt.jpg",
         "itemId": 10504,
+        "sizeChart": "../assets/products/T-Shirt/Dri Fit Round Neck/Melange Mesh Premium Dri Fit /AC DF Size Chart.jpg",
+        "image1": "../assets/products/T-Shirt/Dri Fit Round Neck/Melange Mesh Premium Dri Fit /AC DF.png",
+        "image2": "../assets/products/T-Shirt/Dri Fit Round Neck/Melange Mesh Premium Dri Fit /AC DF1.png",
         "itemName": "Melange Mesh Premium Dri Fit"
       }],
       "subCatId": 105,
@@ -146,6 +196,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD36 Two Tone Colour/QD36-opt.jpg",
         "itemId": 10601,
+        "sizeChart": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD36 Two Tone Colour/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD36 Two Tone Colour/QD36.png",
         "itemName": "QD36 Two Tone Colour"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -153,6 +205,10 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build for comfort, fashion and semi-intense sporting activities.",
         "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD43 Two Tone Sublimated Colour/QD43 (A)-opt.jpg",
         "itemId": 10602,
+        "sizeChart": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD43 Two Tone Sublimated Colour/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD43 Two Tone Sublimated Colour/QD43 (A).png",
+        "image2": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD43 Two Tone Sublimated Colour/QD43 (B).png",
+        "image3": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD43 Two Tone Sublimated Colour/QD43.png",
         "itemName": "QD43 Two Tone Sublimated Colour"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -160,6 +216,9 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build for comfort, fashion and semi-intense sporting activities.",
         "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD46 Multi-Colour/QD46-opt.jpg",
         "itemId": 10603,
+        "sizeChart": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD46 Multi-Colour/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD46 Multi-Colour/QD46 (1).png",
+        "image2": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD46 Multi-Colour/QD46.png",
         "itemName": "QD46 Multi-Colour"
       }, {
         "sizing": "Unisex S - 3XL",
@@ -167,6 +226,9 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition.",
         "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1100 Dry Pique Two Tone Colour/CRR1100-opt.jpg",
         "itemId": 10604,
+        "sizeChart": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1100 Dry Pique Two Tone Colour/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1100 Dry Pique Two Tone Colour/CRR1100 Cover.png",
+        "image2": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1100 Dry Pique Two Tone Colour/CRR1100.png",
         "itemName": "QD1100 Dry Pique Two Tone Colour"
       }, {
         "sizing": "Unisex S - 3XL",
@@ -174,6 +236,9 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition.",
         "imageLink": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1200 Dry Pique Two Tone Colour Trimming/CRR1200-opt.jpg",
         "itemId": 10605,
+        "sizeChart": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1200 Dry Pique Two Tone Colour Trimming/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1200 Dry Pique Two Tone Colour Trimming/CRR1200 Cover.png",
+        "image2": "../assets/products/T-Shirt/Multi-Pattern Dri Fit Round Neck/QD1200 Dry Pique Two Tone Colour Trimming/CRR1200.png",
         "itemName": "QD1200 Dry Pique Two Tone Colour Trimming"
       }],
       "subCatId": 106,
@@ -186,6 +251,9 @@
         "description": "Smooth, soft and comfortable fabric material.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Alpha Baseball Raglan 3-4 Sleeve/AlphaBaseball Colour-opt.jpg",
         "itemId": 10701,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Alpha Baseball Raglan 3-4 Sleeve/Raglan 34 Sleeve CRR.png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Alpha Baseball Raglan 3-4 Sleeve/Alpha Baseball Tee Shirt Colour.jpg",
+        "image2": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Alpha Baseball Raglan 3-4 Sleeve/AlphaBaseball Colour.jpg",
         "itemName": "Aplha Baseball Raglan 3/4 Sleeve"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -193,6 +261,8 @@
         "description": "Soft and comfortable. Suited for Singapore's hot weather due to it's light-weighted cotton material.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan 3-4 Sleeve Cotton/CT56-opt.jpg",
         "itemId": 10702,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan 3-4 Sleeve Cotton/Raglan 34 Sleeve.png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan 3-4 Sleeve Cotton/CT56.png",
         "itemName": "Comfy Soft Raglan 3/4 Sleeve Cotton"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -200,6 +270,8 @@
         "description": "Soft and comfortable. Suited for Singapore's hot weather due to it's light-weighted cotton material.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan Cotton Short Sleeve/CT55-opt.jpg",
         "itemId": 10703,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan Cotton Short Sleeve/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Comfy Soft Raglan Cotton Short Sleeve/CT55.png",
         "itemName": "Comfy Soft Raglan Cotton Short Sleeve"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -207,6 +279,8 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build for comfort and fashion.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Long Sleeve/QD49-opt.jpg",
         "itemId": 10704,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Long Sleeve/Long Sleeve Cotton Chart.png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Long Sleeve/QD49.png",
         "itemName": "Dri Fit Raglan Long Sleeve"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -214,13 +288,17 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build for comfort and fashion.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Short Sleeve/QD48-opt.jpg",
         "itemId": 10705,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Short Sleeve/QD Size Chart XS to 3XL.png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Dri Fit Raglan Short Sleeve/QD48.png",
         "itemName": "Dri Fit Raglan Short Sleeve"
       }, {
         "sizing": "Unisex XS - XXL",
-        "material": "100 % Premium Cotton (180gsm)",
+        "material": "100% Premium Cotton (180gsm)",
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Premium Gildan Raglan Cotton Short Sleeve/GRaglan 76500-opt.jpg",
         "itemId": 10706,
+        "sizeChart": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Premium Gildan Raglan Cotton Short Sleeve/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Raglan Sleeve Round Neck/Premium Gildan Raglan Cotton Short Sleeve/GRaglan 76500.png",
         "itemName": "Premium Gildan Raglan Cotton Short Sleeve"
       }],
       "subCatId": 107,
@@ -229,10 +307,12 @@
       "imageLink": "../assets/products/T-Shirt/Ringer Round Neck/Ringer Round Neck-opt.jpg",
       "items": [{
         "sizing":"Unisex XS - XXL",
-        "material":"100 % Premium Cotton (180gsm)",
+        "material":"100% Premium Cotton (180gsm)",
         "description": "Premium smooth knitted cotton material. Comfortable and sleek.",
         "imageLink": "../assets/products/T-Shirt/Ringer Round Neck/Ringer Round Neck-opt.jpg",
         "itemId": 10801,
+        "sizeChart": "../assets/products/T-Shirt/Ringer Round Neck/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/Ringer Round Neck/Ringer Round Neck.png",
         "itemName": "Ringer Round Neck"
       }],
       "subCatId": 108,
@@ -241,10 +321,12 @@
       "imageLink": "../assets/products/T-Shirt/V-Neck Cotton/63V00 Gildan V Neck-opt.jpg",
       "items": [{
         "sizing":"Unisex XS - XXL",
-        "material": "100 % Premium Cotton (150gsm)",
+        "material": "100% Premium Cotton (150gsm)",
         "description": "V-Neck Style Cutting. Soft and smooth knitted cotton material. Comfortable and easywear",
         "imageLink": "../assets/products/T-Shirt/V-Neck Cotton/63V00 Gildan V Neck-opt.jpg",
         "itemId": 10901,
+        "sizeChart": "../assets/products/T-Shirt/V-Neck Cotton/T-Shirt Measurement Chart (Cotton).png",
+        "image1": "../assets/products/T-Shirt/V-Neck Cotton/63V00 Gildan V Neck.png",
         "itemName": "V-Neck Cotton"
       }],
       "subCatId": 109,
@@ -262,6 +344,8 @@
         "description": "Thick, comfy and at the same time with a soft feel.",
         "imageLink": "../assets/products/Polo T-Shirt/Cotton Polo /Gildan Premium 100_ Cotton Polo T-Shirt/G Polo Full Cotton-opt.jpg",
         "itemId": 20101,
+        "sizeChart": "../assets/products/Polo T-Shirt/Cotton Polo /Gildan Premium 100_ Cotton Polo T-Shirt/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Cotton Polo /Gildan Premium 100_ Cotton Polo T-Shirt/G Polo Full Cotton.png",
         "itemName": "Gildan Premium 100% Cotton Polo T-Shirt"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -269,6 +353,8 @@
         "description": "Most popular choice for corporate wear. Easywear, soft and comfy fabric. Professional, smart and more sturdy outlook.",
         "imageLink": "../assets/products/Polo T-Shirt/Cotton Polo /Honeycomb Polo T-Shirt/HC01-opt.jpg",
         "itemId": 20102,
+        "sizeChart": "../assets/products/Polo T-Shirt/Cotton Polo /Honeycomb Polo T-Shirt/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Cotton Polo /Honeycomb Polo T-Shirt/HC01.png",
         "itemName": "Honeycomb Polo T-Shirt"
       }, {
         "sizing": "Unisex S - 3XL",
@@ -276,6 +362,8 @@
         "description": "Soft touch fabric. Smart clean cut and comfortable wear.",
         "imageLink": "../assets/products/Polo T-Shirt/Cotton Polo /Premium Soft Touch Polo T-Shirt/NHB2400-opt.jpg",
         "itemId": 20103,
+        "sizeChart": "../assets/products/Polo T-Shirt/Cotton Polo /Premium Soft Touch Polo T-Shirt/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Cotton Polo /Premium Soft Touch Polo T-Shirt/NHB2400.png",
         "itemName": "Premium Soft Touch Polo T-Shirt"
       }],
       "subCatId": 201,
@@ -288,6 +376,10 @@
         "description": "Top quality and soft light-weighted fabric. Bringing comfort to the next level. Perfect for outdoor activities and hot weather condition. Breathable fabric allows sweat to dry off quickly. Our most popular and highly recommended Dri Fit material.",
         "imageLink": "../assets/products/Polo T-Shirt/Dri Fit Polo/Cool Technology Breathable Dri Fit Polo/CT Polo.jpg",
         "itemId": 20201,
+        "sizeChart": "../assets/products/Polo T-Shirt/Dri Fit Polo/Cool Technology Breathable Dri Fit Polo/Collar Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Dri Fit Polo/Cool Technology Breathable Dri Fit Polo/CT Polo.png",
+        "image2": "../assets/products/Polo T-Shirt/Dri Fit Polo/Cool Technology Breathable Dri Fit Polo/CT.jpg",
+        "image3": "../assets/products/Polo T-Shirt/Dri Fit Polo/Cool Technology Breathable Dri Fit Polo/IMG_8453.JPG",
         "itemName": "Cool Technology Breatable Dri Fit Polo"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -295,6 +387,8 @@
         "description": "Top quality and soft light-weighted fabric. Bringing comfort to the next level. More sturdy and professional outlook. Breathable fabric allows sweat to dry off quickly.",
         "imageLink": "../assets/products/Polo T-Shirt/Dri Fit Polo/Dry Technology Honeycomb Dri Fit Polo/Dry Tech-opt.jpg",
         "itemId": 20202,
+        "sizeChart": "../assets/products/Polo T-Shirt/Dri Fit Polo/Dry Technology Honeycomb Dri Fit Polo/Collar Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Dri Fit Polo/Dry Technology Honeycomb Dri Fit Polo/Dry Tech.png",
         "itemName": "Dry Technology Honeycomb Dri Fit Polo"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -302,6 +396,9 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Polo T-Shirt/Dri Fit Polo/Eyelet Dri Fit Polo/Drifit Polo-opt.jpg",
         "itemId": 20203,
+        "sizeChart": "../assets/products/Polo T-Shirt/Dri Fit Polo/Eyelet Dri Fit Polo/Collar Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Dri Fit Polo/Eyelet Dri Fit Polo/Drifit Polo.png",
+        "image2": "../assets/products/Polo T-Shirt/Dri Fit Polo/Eyelet Dri Fit Polo/IMG_8454.JPG",
         "itemName": "Eyelet Dri Fit Polo"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -309,6 +406,9 @@
         "description": "Interlock material features a smooth surface fabric feature. Fashionable and sleek looking. Efficient in sweat absorbent and drying of sweat. Build more for comfort, fashion and light sporting activities.",
         "imageLink": "../assets/products/Polo T-Shirt/Dri Fit Polo/Interlock Smooth Dri Fit Polo/Abs Interlock Polo-opt.jpg",
         "itemId": 20204,
+        "sizeChart": "../assets/products/Polo T-Shirt/Dri Fit Polo/Interlock Smooth Dri Fit Polo/Collar Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Dri Fit Polo/Interlock Smooth Dri Fit Polo/Abs Interlock Polo.png",
+        "image2": "../assets/products/Polo T-Shirt/Dri Fit Polo/Interlock Smooth Dri Fit Polo/IMG_8455.JPG",
         "itemName": "Interlock Smooth Dri Fit Polo"
       }],
       "subCatId": 202,
@@ -321,6 +421,8 @@
         "description": "Easywear, soft and comfy fabric. Professional and more sturdy outlook.",
         "imageLink": "../assets/products/Polo T-Shirt/Long Sleeve Polo/Honeycomb Polo Long Sleeve/Honeycomp Polo Long Sleeve-opt.jpg",
         "itemId": 20301,
+        "sizeChart": "../assets/products/Polo T-Shirt/Long Sleeve Polo/Honeycomb Polo Long Sleeve/Polo Long Sleeve.png",
+        "image1": "../assets/products/Polo T-Shirt/Long Sleeve Polo/Honeycomb Polo Long Sleeve/Honeycomp Polo Long Sleeve.png",
         "itemName": "Honeycomb Polo Long Sleeve"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -328,6 +430,8 @@
         "description": "Smooth knitted and soft fabric. Light-weighted and good breathability for humid weather condition. Long sleeve ends with a cuffing.",
         "imageLink": "../assets/products/Polo T-Shirt/Long Sleeve Polo/SJ Polo Long Sleeve/Single Jersey Long Sleeve-opt.jpg",
         "itemId": 20302,
+        "sizeChart": "../assets/products/Polo T-Shirt/Long Sleeve Polo/SJ Polo Long Sleeve/SJ Long Sleeve Size Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Long Sleeve Polo/SJ Polo Long Sleeve/Single Jersey Long Sleeve.png",
         "itemName": "SJ Polo Long Sleeve"
       }],
       "subCatId": 203,
@@ -340,6 +444,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Polo T-Shirt/Mandarin Collar/QD18-opt.jpg",
         "itemId": 20401,
+        "sizeChart": "../assets/products/Polo T-Shirt/Mandarin Collar/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Mandarin Collar/QD18.png",
         "itemName": "Mandarin Collar"
       }],
       "subCatId": 204,
@@ -352,6 +458,10 @@
         "description": "With its trendy colour combination and smart looking appearance, it is one of the preferred choice for Corporate and Events. Comfortable and cooling fabric material.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/HC10 A-opt.jpg",
         "itemId": 20501,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/HC10 A.png",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/HC10 B.png",
+        "image3": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC10 Two Tone Polo/HC10 C.png",
         "itemName": "HC10 Two Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -359,6 +469,8 @@
         "description": "With its trendy colour combination and smart looking appearance, it is one of the preferred choice for Corporate and Events. Comfortable and cooling fabric material.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC11 Three Tone Polo/HC11-opt.jpg",
         "itemId": 20502,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC11 Three Tone Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC11 Three Tone Polo/HC11.png",
         "itemName": "HC11 Three Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -366,6 +478,8 @@
         "description": "With its trendy colour combination and smart looking appearance, it is one of the preferred choice for Corporate and Events. Comfortable and cooling fabric material.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC12 Two Tone Polo/HC12-opt.jpg",
         "itemId": 20503,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC12 Two Tone Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC12 Two Tone Polo/HC12.png",
         "itemName": "HC12 Two Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -373,6 +487,8 @@
         "description": "With its trendy colour combination and smart looking appearance, it is one of the preferred choice for Corporate and Events. Comfortable and cooling fabric material.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC15 Three Tone Polo/HC15-opt.jpg",
         "itemId": 20504,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC15 Three Tone Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC15 Three Tone Polo/HC15.png",
         "itemName": "HC15 Three Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -380,6 +496,8 @@
         "description": "Trendy colour combination and smart looking appearance. Comfortable and cooling fabric material.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC17 Three Tone Stripe Polo/HC17-opt.jpg",
         "itemId": 20505,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC17 Three Tone Stripe Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/HC17 Three Tone Stripe Polo/HC17.png",
         "itemName": "HC17 Three Tone Stripe Polo"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -387,6 +505,8 @@
         "description": "Soft premium fabric. Unique and smart looking.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/Premium Soft Touch Two Tone Polo/NHB2200-opt.jpg",
         "itemId": 20506,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/Premium Soft Touch Two Tone Polo/NBH Size.jpg",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/Premium Soft Touch Two Tone Polo/NHB2200.png",
         "itemName": "Premium Soft Touch Two Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -394,6 +514,9 @@
         "description": "Soft and light-weighted material. Comfy and airy. Fashionable and very presentable.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ01 Two Tone Polo/SJ01 (A)-opt.jpg",
         "itemId": 20507,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ01 Two Tone Polo/SJ Size Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ01 Two Tone Polo/SJ01 (A).png",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ01 Two Tone Polo/SJ01 (B).png",
         "itemName": "SJ01 Two Tone Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -401,6 +524,8 @@
         "description": "Soft and light-weighted material. Comfy and airy. Fashionable and very presentable.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ04 Two Tone Polo/SJ04-opt.jpg",
         "itemId": 20508,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ04 Two Tone Polo/SJ Size Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Cotton Polo/SJ04 Two Tone Polo/SJ04.png",
         "itemName": "SJ04 Three Tone Polo"
       }],
       "subCatId": 205,
@@ -413,6 +538,9 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities. Trendy colour combination and smart looking appearance.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD27 Two Tone Dri Fit Polo/QD27 A-opt.jpg",
         "itemId": 20601,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD27 Two Tone Dri Fit Polo/Collar Chart.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD27 Two Tone Dri Fit Polo/QD27 A.png",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD27 Two Tone Dri Fit Polo/QD27 B.png",
         "itemName": "QD27 Two Tone Dri Fit Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -420,6 +548,9 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities. Trendy colour combination and smart looking appearance.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD30 Two Tone Dri Fit Polo/QD30-opt.jpg",
         "itemId": 20602,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD30 Two Tone Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD30 Two Tone Dri Fit Polo/QD30 Back.png",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD30 Two Tone Dri Fit Polo/QD30.png",
         "itemName": "QD30 Two Tone Dri Fit Polo"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -427,6 +558,9 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities. Trendy colour combination and smart looking appearance.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD33 Two Tone Dri Fit Polo/QD33-opt.jpg",
         "itemId": 20603,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD33 Two Tone Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD33 Two Tone Dri Fit Polo/QD33 Back.png",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD33 Two Tone Dri Fit Polo/QD33.png",
         "itemName": "QD33 Two Tone Dri Fit Polo"
       }, {
         "sizing": "Unisex XXS - 3XL",
@@ -434,6 +568,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Perfect for intense sporting activities and outdoor activities. Trendy colour combination and smart looking appearance.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD34 Two Tone Dri Fit Polo/QD34-opt.jpg",
         "itemId": 20604,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD34 Two Tone Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD34 Two Tone Dri Fit Polo/QD34.png",
         "itemName": "QD34 Two Tone Dri Fit Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -441,6 +577,8 @@
         "description": "Good sweat absorbent and quick dry. Smooth and soft fabric material. Bringing sporting apparels a new outlook  with its vibrant and trendy colours.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD37 Sublimated Colour Dri Fit Polo/QD37-opt.jpg",
         "itemId": 20605,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD37 Sublimated Colour Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD37 Sublimated Colour Dri Fit Polo/QD37.png",
         "itemName": "QD37 Sublimated Colour Dri Fit Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -448,6 +586,8 @@
         "description": "Good sweat absorbent and quick dry. Smooth and soft fabric material. Bringing sporting apparels a new outlook  with its vibrant and trendy colours.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD44 Sublimated Colours Dri Fit Polo/QD44-opt.jpg",
         "itemId": 20606,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD44 Sublimated Colours Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD44 Sublimated Colours Dri Fit Polo/QD44.png",
         "itemName": "QD44 Sublimated Colours Dri Fit Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -455,6 +595,8 @@
         "description": "Good sweat absorbent and quick dry. Smooth and soft fabric material. Bringing sporting apparels a new outlook  with its vibrant and trendy colours.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD45 Sublimated Colour Dri Fit Polo/QD45-opt.jpg",
         "itemId": 20607,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD45 Sublimated Colour Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD45 Sublimated Colour Dri Fit Polo/QD45.png",
         "itemName": "QD45 Sublimated Colour Dri Fit Polo"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -462,6 +604,8 @@
         "description": "Good sweat absorbent and quick dry. Smooth and soft fabric material. Bringing sporting apparels a new outlook  with its vibrant and trendy colours.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD47 Sublimated Colour Dri Fit Polo/QD47-opt.jpg",
         "itemId": 20608,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD47 Sublimated Colour Dri Fit Polo/Honeycomb Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/QD47 Sublimated Colour Dri Fit Polo/QD47.png",
         "itemName": "QD47 Sublimated Colour Dri Fit Polo"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -469,6 +613,9 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition. Sleek cutting and smart sturdy appearance makes it look professional. Recommended option for Corporate Polo Wear.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1100 Two Tone Dri Fit Polo/CRP1100-opt.jpg",
         "itemId": 20609,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1100 Two Tone Dri Fit Polo/Crossrunner Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1100 Two Tone Dri Fit Polo/CRP1100 Reference.jpg",
+        "image2": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1100 Two Tone Dri Fit Polo/CRP1100.png",
         "itemName": "TJG1100 Two Tone Dri Fit Polo"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -476,6 +623,8 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition. Sleek cutting and smart sturdy appearance makes it look professional. Recommended option for Corporate Polo Wear.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1500 Two Tone Dri Fit Polo/CRP1500-opt.jpg",
         "itemId": 20610,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1500 Two Tone Dri Fit Polo/Crossrunner Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG1500 Two Tone Dri Fit Polo/CRP1500.png",
         "itemName": "TJG1500 Two Tone Dri Fit Polo"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -483,6 +632,8 @@
         "description": "Good sweat absorbent and quick evaporation of sweat. Perfect for outdoor activities and hot weather condition. Front two pocket.",
         "imageLink": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG2600 Two Tone Dri Fit Polo/CRP2600-opt.jpg",
         "itemId": 20611,
+        "sizeChart": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG2600 Two Tone Dri Fit Polo/Crossrunner Polo.png",
+        "image1": "../assets/products/Polo T-Shirt/Multi-Pattern Dri Fit Polo/TJG2600 Two Tone Dri Fit Polo/CRP2600.png",
         "itemName": "TJG2600 Two Tone Dri Fit Polo"
       }],
       "subCatId": 206,
@@ -500,6 +651,8 @@
         "description": "High quality material, light-weighted and comfortable. Stylish and chic. Appropriate for both Corporate wear and Casual trendy wear.",
         "imageLink": "../assets/products/Outerwear/Baseball College Jacket/Baseball College Jacket-opt.jpg",
         "itemId": 30101,
+        "sizeChart": "../assets/products/Outerwear/Baseball College Jacket/Baseball Jacket.png",
+        "image1": "../assets/products/Outerwear/Baseball College Jacket/Baseball College Jacket.png",
         "itemName": "Baseball College Jacket"
       }],
       "subCatId": 301,
@@ -512,6 +665,8 @@
         "description": "Inner Fleece Knit to keep you warm and comfortable. High quality fabric which are designed to withstand colder temperature. Excellent under air-conditioned environment or even for winter wear.",
         "imageLink": "../assets/products/Outerwear/Pullover Hoodies/Gildan Pullover 100_ Cotton Hoodie/Gildan Hoodie-opt.jpg",
         "itemId": 30201,
+        "sizeChart": "../assets/products/Outerwear/Pullover Hoodies/Gildan Pullover 100_ Cotton Hoodie/Gildan Hoodie Size Chart.png",
+        "image1": "../assets/products/Outerwear/Pullover Hoodies/Gildan Pullover 100_ Cotton Hoodie/Gildan Hoodie.png",
         "itemName": "Gildan Pullover 100% Cotton Hoodie"
       }, {
         "sizing": "Unisex 3XS  - 3XL",
@@ -519,6 +674,8 @@
         "description": "Most popular Hoodie series. Soft, comfy and balance-weighted Hoodies. Perfect to keep you comfortable in air-conditioned environment. Fabric is unlike conventional thick ones, these are specially catered for Singapore's sunny weather condition too.",
         "imageLink": "../assets/products/Outerwear/Pullover Hoodies/Premium Comfy Hoodie/AC Hoodie-opt.jpg",
         "itemId": 30202,
+        "sizeChart": "../assets/products/Outerwear/Pullover Hoodies/Premium Comfy Hoodie/Hoodie Chart.png",
+        "image1": "../assets/products/Outerwear/Pullover Hoodies/Premium Comfy Hoodie/Hoodies.png",
         "itemName": "Premium Comfy Hoodie"
       }],
       "subCatId": 302,
@@ -531,6 +688,8 @@
         "description": "Inner Fleece Knit to keep you warm and comfortable. High quality fabric which are designed to withstand colder temperature. Excellent under air-conditioned environment or even for winter wear.",
         "imageLink": "../assets/products/Outerwear/Sweater Pullover/Pullover-opt.jpg",
         "itemId": 30301,
+        "sizeChart": "../assets/products/Outerwear/Sweater Pullover/Pullover Size Chart Gildan.jpg",
+        "image1": "../assets/products/Outerwear/Sweater Pullover/Pullover.png",
         "itemName": "Sweater Pullover"
       }],
       "subCatId": 303,
@@ -543,6 +702,8 @@
         "description": "Inner lining with a smooth finishing. Designed to cater for Singapore's sunny weather. It is comfortable and stylish. Suitable for both Corporate wear and Casual trendy wear.",
         "imageLink": "../assets/products/Outerwear/Varsity Jacket /Varsity Jacket-opt.jpg",
         "itemId": 30401,
+        "sizeChart": "../assets/products/Outerwear/Varsity Jacket /Varsity Jacket Chart.png",
+        "image1": "../assets/products/Outerwear/Varsity Jacket /Varsity Jacket.png",
         "itemName": "Varsity Jacket"
       }],
       "subCatId": 304,
@@ -555,6 +716,8 @@
         "description": "Inner Fleece Knit to keep you warm and comfortable. High quality fabric which are designed to withstand colder temperature. Excellent under air-conditioned environment or even for winter wear.",
         "imageLink": "../assets/products/Outerwear/Zip Hoodies/Gildan Pullover 100_ Cotton Zip Hoodie/Gildan Hoodie-opt.jpg",
         "itemId": 30501,
+        "sizeChart": "../assets/products/Outerwear/Zip Hoodies/Gildan Pullover 100_ Cotton Zip Hoodie/Gildan Hoodie Size Chart.png",
+        "image1": "../assets/products/Outerwear/Zip Hoodies/Gildan Pullover 100_ Cotton Zip Hoodie/Gildan Hoodie.png",
         "itemName": "Gildan Pullover 100% Cotton Zip Hoodie"
       }, {
         "sizing": "Unisex 3XS  - 3XL",
@@ -562,6 +725,8 @@
         "description": "Most popular Hoodie series. Soft, comfy and balance-weighted Hoodies. Perfect to keep you comfortable in air-conditioned environment. Fabric is unlike conventional thick ones, these are specially catered for Singapore's sunny weather condition too.",
         "imageLink": "../assets/products/Outerwear/Zip Hoodies/Premium Comfy Hoodie/AC Hoodie Zip-opt.jpg",
         "itemId": 30502,
+        "sizeChart": "../assets/products/Outerwear/Zip Hoodies/Premium Comfy Hoodie/Hoodie Chart.png",
+        "image1": "../assets/products/Outerwear/Zip Hoodies/Premium Comfy Hoodie/Hoodies Zip.png",
         "itemName": "Premium Comfy Zip Hoodie"
       }],
       "subCatId": 305,
@@ -579,6 +744,9 @@
         "description": "Featuring reversible sides windbreaker, this versatile windbreaker allows printing on both sides of the windbreaker. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.\n\nDue to the colour versatility special feature, stylishness and simplicity it remains one of the top favour for Corporate and School Events order.",
         "imageLink": "../assets/products/Windbreakers/Reversible Windbreaker/WR01 Reversible Windbreaker/WR01 Reversible Windbreak-opt.jpg",
         "itemId": 40101,
+        "sizeChart": "../assets/products/Windbreakers/Reversible Windbreaker/WR01 Reversible Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Reversible Windbreaker/WR01 Reversible Windbreaker/WR01 Reversible Windbreak.png",
+        "image2": "../assets/products/Windbreakers/Reversible Windbreaker/WR01 Reversible Windbreaker/WR01.png",
         "itemName": "WR01 Reversible Windbreaker"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -586,6 +754,8 @@
         "description": "Featuring reversible sides windbreaker, this versatile windbreaker allows printing on both sides of the windbreaker. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.\n\nDue to the colour versatility special feature, stylishness and simplicity it remains one of the top favour for Corporate and School Events order.",
         "imageLink": "../assets/products/Windbreakers/Reversible Windbreaker/WR03 Reversible Windbreaker/WR03 Windbreaker-opt.jpg",
         "itemId": 40102,
+        "sizeChart": "../assets/products/Windbreakers/Reversible Windbreaker/WR03 Reversible Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Reversible Windbreaker/WR03 Reversible Windbreaker/WR03 Windbreaker.png",
         "itemName": "WR03 Reversible Windbreaker"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -593,6 +763,9 @@
         "description": "Featuring reversible sides windbreaker, this versatile windbreaker allows printing on both sides of the windbreaker. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.\n\nDue to the colour versatility special feature, stylishness and simplicity it remains one of the top favour for Corporate and School Events order.",
         "imageLink": "../assets/products/Windbreakers/Reversible Windbreaker/WR04 Reversible Windbreaker/WR04 Reversible Windbreaker Latest-opt.jpg",
         "itemId": 40103,
+        "sizeChart": "../assets/products/Windbreakers/Reversible Windbreaker/WR04 Reversible Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Reversible Windbreaker/WR04 Reversible Windbreaker/WR04 Reversible Windbreaker Latest.png",
+        "image2": "../assets/products/Windbreakers/Reversible Windbreaker/WR04 Reversible Windbreaker/WR04.png",
         "itemName": "WR04 Reversible Windbreaker"
       }],
       "subCatId": 401,
@@ -605,6 +778,9 @@
         "description": "Inner lining with smooth finish and one inner left chest pocket. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.",
         "imageLink": "../assets/products/Windbreakers/Single Side Windbreaker/WB04 Single Side Windbreaker/WB04 Single Windbreaker-opt.jpg",
         "itemId": 40201,
+        "sizeChart": "../assets/products/Windbreakers/Single Side Windbreaker/WB04 Single Side Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Single Side Windbreaker/WB04 Single Side Windbreaker/WB04 Single Windbreaker.png",
+        "image2": "../assets/products/Windbreakers/Single Side Windbreaker/WB04 Single Side Windbreaker/WB04.png",
         "itemName": "WB04 Single Side Windbreaker"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -612,6 +788,9 @@
         "description": "Inner lining with smooth finish and one inner left chest pocket. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.",
         "imageLink": "../assets/products/Windbreakers/Single Side Windbreaker/WB05 Single Side Windbreaker/WB05 Single Windbreaker-opt.jpg",
         "itemId": 40202,
+        "sizeChart": "../assets/products/Windbreakers/Single Side Windbreaker/WB05 Single Side Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Single Side Windbreaker/WB05 Single Side Windbreaker/WB05 Single Windbreaker.png",
+        "image2": "../assets/products/Windbreakers/Single Side Windbreaker/WB05 Single Side Windbreaker/WB05.png",
         "itemName": "WB05 Single Side Windbreaker"
       }, {
         "sizing": "Unisex XS - 3XL",
@@ -619,6 +798,9 @@
         "description": "Inner netting lining. High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too. Simple, stylish and afforable, this model remains the top choice among students.",
         "imageLink": "../assets/products/Windbreakers/Single Side Windbreaker/WB06 Single Side Windbreaker/Windbreaker WB01-opt.jpg",
         "itemId": 40203,
+        "sizeChart": "../assets/products/Windbreakers/Single Side Windbreaker/WB06 Single Side Windbreaker/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Single Side Windbreaker/WB06 Single Side Windbreaker/WB06.png",
+        "image2": "../assets/products/Windbreakers/Single Side Windbreaker/WB06 Single Side Windbreaker/Windbreaker WB01.png",
         "itemName": "WB06 Single Side Windbreaker"
       }],
       "subCatId": 402,
@@ -631,6 +813,9 @@
         "description": "High quality fabric brings comfort and are good resistant under air-conditioned or cold environment. Being light-weighted, it is not too thick and humid under Singapore's sunny weather too.",
         "imageLink": "../assets/products/Windbreakers/Vest Windbreaker/Windbreaker Vest/VJ06 Windbreaker Vest-opt.jpg",
         "itemId": 40301,
+        "sizeChart": "../assets/products/Windbreakers/Vest Windbreaker/Windbreaker Vest/Windbreaker Chart.png",
+        "image1": "../assets/products/Windbreakers/Vest Windbreaker/Windbreaker Vest/VJ06 Windbreaker Vest.png",
+        "image2": "../assets/products/Windbreakers/Vest Windbreaker/Windbreaker Vest/VJ06.png",
         "itemName": "VJ06 Single Side Windbreaker"
       }],
       "subCatId": 403,
@@ -648,6 +833,8 @@
         "description": "Comfortable and not sheer.",
         "imageLink": "../assets/products/Singlets/Cotton Singlets/Gildan Ultra Cotton Tank Top/Tank Top Gildan-opt.jpg",
         "itemId": 50101,
+        "sizeChart": "../assets/products/Singlets/Cotton Singlets/Gildan Ultra Cotton Tank Top/Tank Top Size Chart (2).JPG",
+        "image1": "../assets/products/Singlets/Cotton Singlets/Gildan Ultra Cotton Tank Top/Tank Top Gildan.png",
         "itemName": "Gildan Ultra Cotton Tank Top"
       }],
       "subCatId": 501,
@@ -660,6 +847,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Light-weighted fabric and smooth finishing lower chances of abrasion. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG166 Dri Fit Singlet/SM166-opt.jpg",
         "itemId": 50201,
+        "sizeChart": "../assets/products/Singlets/Dri Fit Singlets/TJG166 Dri Fit Singlet/SM Singlet Dri Fit Chart.png",
+        "image1": "../assets/products/Singlets/Dri Fit Singlets/TJG166 Dri Fit Singlet/SM166.png",
         "itemName": "TJG166 Dri Fit Singlet"
       }, {
         "sizing": "Unisex XXS - XXL",
@@ -667,6 +856,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Light-weighted fabric and smooth finishing lower chances of abrasion. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG167 Dri Fit Singlet/SM167-opt.jpg",
         "itemId": 50202,
+        "sizeChart": "../assets/products/Singlets/Dri Fit Singlets/TJG167 Dri Fit Singlet/SM Singlet Dri Fit Chart.png",
+        "image1": "../assets/products/Singlets/Dri Fit Singlets/TJG167 Dri Fit Singlet/SM167.png",
         "itemName": "TJG167 Dri Fit Singlet"
       }, {
         "sizing": "Unisex XXS - XXL",
@@ -674,6 +865,8 @@
         "description": "Superb sweat absorbent. Eyelet fabric feature allows sweat to dry off quicker. Light-weighted fabric and smooth finishing lower chances of abrasion. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG168 Dri Fit Singlet/SM168-opt.jpg",
         "itemId": 50203,
+        "sizeChart": "../assets/products/Singlets/Dri Fit Singlets/TJG168 Dri Fit Singlet/SM Singlet Dri Fit Chart.png",
+        "image1": "../assets/products/Singlets/Dri Fit Singlets/TJG168 Dri Fit Singlet/SM168.png",
         "itemName": "TJG168 Dri Fit Singlet"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -681,6 +874,9 @@
         "description": "Superb sweat absorbent. Fabric allows sweat to dry off quicker. Light-weighted fabric and smooth finishing lower chances of abrasion. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG1500 Dri Fit Singlet /Singlet Colour-opt.jpg",
         "itemId": 50204,
+        "sizeChart": "../assets/products/Singlets/Dri Fit Singlets/TJG1500 Dri Fit Singlet /Singlet Dri Fit Chart.png",
+        "image1": "../assets/products/Singlets/Dri Fit Singlets/TJG1500 Dri Fit Singlet /Singlet Colour.png",
+        "image2": "../assets/products/Singlets/Dri Fit Singlets/TJG1500 Dri Fit Singlet /Tank Top Model.png",
         "itemName": "TJG1500 Dri Fit Singlet"
       }, {
         "sizing": "S - 3XL (Unisex) ; S - XL (Ladies)",
@@ -688,6 +884,8 @@
         "description": "Superb sweat absorbent. Fabric allows sweat to dry off quicker. Light-weighted fabric and smooth finishing lower chances of abrasion. Perfect for intense sporting activities and outdoor activities.",
         "imageLink": "../assets/products/Singlets/Dri Fit Singlets/TJG1600 Dri Fit Singlet /Singlet CRV1600-opt.jpg",
         "itemId": 50205,
+        "sizeChart": "../assets/products/Singlets/Dri Fit Singlets/TJG1600 Dri Fit Singlet /Singlet Dri Fit Chart.png",
+        "image1": "../assets/products/Singlets/Dri Fit Singlets/TJG1600 Dri Fit Singlet /Singlet CRV1600.png",
         "itemName": "TJG1600 Dri Fit Singlet"
       }],
       "subCatId": 502,
@@ -705,6 +903,8 @@
         "description": "Light-weighted fabric and flexible. Good for outdoor activities.",
         "imageLink": "../assets/products/Bottoms/Jogging Track Pants/LP Track Pants-opt.jpg",
         "itemId": 60101,
+        "sizeChart": "../assets/products/Bottoms/Jogging Track Pants/Long Pants Size.png",
+        "image1": "../assets/products/Bottoms/Jogging Track Pants/LP Track Pants.png",
         "itemName": "Jogging Track Pants"
       }],
       "subCatId": 601,
@@ -717,6 +917,8 @@
         "description": "Soft feeling and comfortable. Double side pockets for easier convenience and elastic waistband.",
         "imageLink": "../assets/products/Bottoms/Sweatpants/Sweatpants Gildan-opt.jpg",
         "itemId": 60201,
+        "sizeChart": "../assets/products/Bottoms/Sweatpants/Sweatpants Size.png",
+        "image1": "../assets/products/Bottoms/Sweatpants/Sweatpants Gildan.png",
         "itemName": "Sweatpants"
       }],
       "subCatId": 602,
@@ -727,35 +929,39 @@
     "categoryName": "Accessories",
     "className": "accessories",
     "subCategories": [{
-      "imageLink": "../assets/products/Accessories /Canvas Drawstring Bag/Drawstring Canvas-opt.jpg",
+      "imageLink": "../assets/products/Accessories/Canvas Drawstring Bag/Drawstring Canvas-opt.jpg",
       "items": [{
         "sizing": "Height: 40cm ; Width: 36cm",
         "material": "High Quality Canvas (12oz)",
         "imageLink": "../assets/products/Accessories/Canvas Drawstring Bag/Drawstring Canvas-opt.jpg",
         "itemId": 70101,
+        "image1": "../assets/products/Accessories/Canvas Drawstring Bag/Drawstring Canvas.jpg",
         "itemName": "Canvas Drawstring Bag"
       }],
       "subCatId": 701,
       "subCatName": "Canvas Drawstring Bag"
     }, {
-      "imageLink": "../assets/products/Accessories /Canvas Tote Bag/Tote Bag-opt.jpg",
+      "imageLink": "../assets/products/Accessories/Canvas Tote Bag/Tote Bag-opt.jpg",
       "items": [{
         "sizing": "Height 39cm ; Width 34cm ; Handle 22cm",
         "material": "High Quality Canvas (12oz)",
         "imageLink": "../assets/products/Accessories/Canvas Tote Bag/Tote Bag-opt.jpg",
         "itemId": 70201,
+        "image1": "../assets/products/Accessories/Canvas Tote Bag/Tote Bag.jpg",
         "itemName": "Canvas Tote Bag"
       }],
       "subCatId": 702,
       "subCatName": "Canvas Tote Bag"
     }, {
-      "imageLink": "../assets/products/Accessories /Caps/Baseball Cap Two Tone/CP04-opt.jpg",
+      "imageLink": "../assets/products/Accessories/Caps/Baseball Cap Two Tone/CP04-opt.jpg",
       "items": [{
         "sizing": "Free Size",
         "material": "100% Cotton",
         "description": "6-Panel Baseball Cap with Metal Sling adjustment. Built for simplicity and comfort. Popular gift & event product for Corporate Branding.",
         "imageLink": "../assets/products/Accessories/Caps/Baseball Cap Two Tone/CP04-opt.jpg",
         "itemId": 70301,
+        "image1": "../assets/products/Accessories/Caps/Baseball Cap Two Tone/CP01 Back View.jpg",
+        "image2": "../assets/products/Accessories/Caps/Baseball Cap Two Tone/CP04.png",
         "itemName": "Baseball Cap Two Tone"
       }, {
         "sizing": "Free Size",
@@ -763,6 +969,8 @@
         "description": "6-Panel Baseball Cap with Metal Sling adjustment. Built for simplicity and comfort. Popular gift & event product for Corporate Branding.",
         "imageLink": "../assets/products/Accessories/Caps/Baseball Cap With Lining/CP03-opt.jpg",
         "itemId": 70302,
+        "image1": "../assets/products/Accessories/Caps/Baseball Cap With Lining/CP01 Back View.jpg",
+        "image2": "../assets/products/Accessories/Caps/Baseball Cap With Lining/CP03.png",
         "itemName": "Baseball Cap With Lining"
       }, {
         "sizing": "Free Size",
@@ -770,6 +978,8 @@
         "description": "6-Panel Baseball Cap with Metal Sling adjustment. Built for simplicity and comfort. Popular gift & event product for Corporate Branding.",
         "imageLink": "../assets/products/Accessories/Caps/Baseball Caps /Baseball Cap CP01-opt.jpg",
         "itemId": 70303,
+        "image1": "../assets/products/Accessories/Caps/Baseball Caps /Baseball Cap CP01.png",
+        "image2": "../assets/products/Accessories/Caps/Baseball Caps /CP01 Back View.jpg",
         "itemName": "Baseball Cap"
       }, {
         "sizing": "Free Size",
@@ -777,6 +987,7 @@
         "description": "Built for simplicity and comfort.",
         "imageLink": "../assets/products/Accessories/Caps/Fisherman Hat /FH01 Fisherman Hat-opt.jpg",
         "itemId": 70304,
+        "image1": "../assets/products/Accessories/Caps/Fisherman Hat /FH01 Fisherman Hat.png",
         "itemName": "Fisherman Hat"
       }, {
         "sizing": "Free Size",
@@ -784,6 +995,7 @@
         "description": "Reversible Feature which allows you to wear on both sides.",
         "imageLink": "../assets/products/Accessories/Caps/Fisherman Hat Reversible/FH01 Reversible-opt.jpg",
         "itemId": 70305,
+        "image1": "../assets/products/Accessories/Caps/Fisherman Hat Reversible/FH01 Reversible.png",
         "itemName": "Fisherman Hat Reversible"
       }, {
         "sizing": "Free Size",
@@ -791,6 +1003,8 @@
         "description": "Metal Sling adjustment. Built for simplicity and comfort. Popular gift & event product for Corporate Branding.",
         "imageLink": "../assets/products/Accessories/Caps/Korean Style Cap/CP21 Field Cap-opt.jpg",
         "itemId": 70306,
+        "image1": "../assets/products/Accessories/Caps/Korean Style Cap/CP21 Back View.png",
+        "image2": "../assets/products/Accessories/Caps/Korean Style Cap/CP21 Field Cap.png",
         "itemName": "Korean Style Cap"
       }, {
         "sizing": "Free Size (Kids & Adult size)",
@@ -798,18 +1012,22 @@
         "description": "Fashionable and comfortable.",
         "imageLink": "../assets/products/Accessories/Caps/Mesh Caps/Mesh Cap Colours-opt.jpg",
         "itemId": 70307,
+        "image1": "../assets/products/Accessories/Caps/Mesh Caps/Mesh Cap Close.png",
+        "image2": "../assets/products/Accessories/Caps/Mesh Caps/Mesh Cap Colours.png",
+        "image3": "../assets/products/Accessories/Caps/Mesh Caps/Mesh Cap.png",
         "itemName": "Mesh Caps"
       }],
       "subCatId": 703,
       "subCatName": "Caps"
     }, {
-      "imageLink": "../assets/products/Accessories /Towels/Bath Towel/Bath Towel-opt.jpg",
+      "imageLink": "../assets/products/Accessories/Towels/Bath Towel/Bath Towel-opt.jpg",
       "items": [{
         "sizing": "27 Inches X 54 Inches",
         "material": "100% Soft Cotton",
         "description": "Eco-friendly, soft and 100% pure cotton.",
         "imageLink": "../assets/products/Accessories/Towels/Bath Towel/Bath Towel-opt.jpg",
         "itemId": 70401,
+        "image1": "../assets/products/Accessories/Towels/Bath Towel/Bath Towel.png",
         "itemName": "Bath Towel"
       }, {
         "sizing": "14 Inches X 26 Inches",
@@ -817,6 +1035,7 @@
         "description": "Eco-friendly, soft and 100% pure cotton.",
         "imageLink": "../assets/products/Accessories/Towels/Facial Towel/Hand Towel-opt.jpg",
         "itemId": 70402,
+        "image1": "../assets/products/Accessories/Towels/Facial Towel/Bath Towel.png",
         "itemName": "Facial Towel"
       }],
       "subCatId": 704,
