@@ -29,7 +29,9 @@
               "src/plugins/elegant_font/css/style.css",
               "src/plugins/owl-carousel/owl.carousel.css",
               "src/plugins/owl-carousel/owl.theme.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/plugins/Gallery/css/blueimp-gallery.min.css",
+              "src/plugins/Bootstrap-Image-Gallery/css/bootstrap-image-gallery.min.css"
             ],
             "scripts": [
               "src/plugins/jquery-3.2.1.min.js",
@@ -43,7 +45,9 @@
               "src/js/form-mobile-fix.js",
               "src/plugins/owl-carousel/owl.carousel.js",
               "src/js/owl-custom.js",
-              "src/js/main.js"
+              "src/js/main.js",
+              "src/plugins/Gallery/js/jquery.blueimp-gallery.min.js",
+              "src/plugins/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js"
             ]
           },
           "configurations": {

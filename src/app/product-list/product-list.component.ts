@@ -19,6 +19,7 @@ export class ProductListComponent implements OnInit {
   selectedCategory: String;
   selectedSubCategory: String;
   selectedItem: String;
+  itemDesc: String;
 
   constructor(private _productService: ProductService,
               database: AngularFireDatabase,

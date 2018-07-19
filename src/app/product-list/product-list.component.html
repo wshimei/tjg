@@ -8,7 +8,7 @@
               <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
             </a>
             <a class="info-mask" (click)="onSelectSubCat(subCategory)">
-              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
+              <span class="desc" >{{itemDesc | slice:0:200}}</span>
               <span class="btn btn-cta btn-cta-primary">View product</span>
             </a>
             <!--//info-mask-->
@@ -35,7 +35,7 @@
               <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
             </a>
             <a class="info-mask" (click)="onSelectSubCat(subCategory)">
-              <span class="desc">Project intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit...</span>
+              <span class="desc">{{itemDesc | slice:0:200}}</span>
               <span class="btn btn-cta btn-cta-primary">View product</span>
             </a>
             <!--//info-mask-->

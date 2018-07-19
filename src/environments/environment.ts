@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyCrlf-vQezHewTxJzAmr2ynPq9reiUAILY',
-    authDomain: 'ng-firebase-dev-539cf.firebaseapp.com',
-    databaseURL: 'https://ng-firebase-dev-539cf.firebaseio.com',
-    projectId: 'ng-firebase-dev-539cf',
-    storageBucket: 'ng-firebase-dev-539cf.appspot.com',
-    messagingSenderId: '478203025900'
+    apiKey: 'AIzaSyDew-3PGEm6OjXnijgSvivO28SNX0Q5HR0',
+    authDomain: 'tjg-angular.firebaseapp.com',
+    databaseURL: 'https://tjg-angular.firebaseio.com',
+    projectId: 'tjg-angular',
+    storageBucket: 'tjg-angular.appspot.com',
+    messagingSenderId: '928275550562'
   }
 };
 

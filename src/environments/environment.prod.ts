@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: 'AIzaSyCrlf-vQezHewTxJzAmr2ynPq9reiUAILY',
-    authDomain: 'ng-firebase-dev-539cf.firebaseapp.com',
-    databaseURL: 'https://ng-firebase-dev-539cf.firebaseio.com',
-    projectId: 'ng-firebase-dev-539cf',
-    storageBucket: 'ng-firebase-dev-539cf.appspot.com',
-    messagingSenderId: '478203025900'
+    apiKey: 'AIzaSyAEQy_8nbspWlRLgZ49qBiovWTxZ41Uia0',
+    authDomain: 'thejerrardgarage-72450.firebaseapp.com',
+    databaseURL: 'https://thejerrardgarage-72450.firebaseio.com',
+    projectId: 'thejerrardgarage-72450',
+    storageBucket: 'thejerrardgarage-72450.appspot.com',
+    messagingSenderId: '611956934000'
   }
 };
