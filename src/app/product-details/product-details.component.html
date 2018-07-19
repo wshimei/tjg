@@ -31,18 +31,39 @@
               </div>
               <!--//content-wrapper-->
               <div class="media-wrapper col-lg-7 col-md-6 col-12 order-md-1">
-                <div class="featured">
+                <div *ngIf="item.sizeChart" class="featured">
                   <a href="{{item.sizeChart}}" data-gallery>
                     <img class="img-fluid" src="{{item.sizeChart}}" alt="Size Chart" />
                   </a>
                 </div>
-                <div id="links" class="thumbs row">
-                  <div class="item col-6">
+
+                <div id="links" *ngIf="!item.sizeChart">
+                  <div class="featured">
                     <a href="{{item.image1}}" data-gallery>
                       <img class="img-fluid" src="{{item.image1}}" alt="{{item.itemName}}" />
                     </a>
                   </div>
                 </div>
+
+                <div id="links" class="thumbs row">
+                  <div class="item col-6" *ngIf="item.sizeChart">
+                    <a href="{{item.image1}}" data-gallery>
+                      <img class="img-fluid" src="{{item.image1}}" alt="{{item.itemName}}" />
+                    </a>
+                  </div>
+                  <div class="item col-6" *ngIf="item.image2">
+                    <a href="{{item.image2}}" data-gallery>
+                      <img class="img-fluid" src="{{item.image2}}" alt="{{item.itemName}}" />
+                    </a>
+                  </div>
+                  <div class="item col-6" *ngIf="item.image3">
+                    <a href="{{item.image3}}" data-gallery>
+                      <img class="img-fluid" src="{{item.image3}}" alt="{{item.itemName}}" />
+                    </a>
+                  </div>
+                </div>
+
+
                 <!--//thumbs-->
               </div>
               <!--//media-wrapper-->
@@ -75,24 +96,24 @@
     <ol class="indicator"></ol>
     <!-- The modal dialog, which will be used to wrap the lightbox content -->
     <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" aria-hidden="true">&times;</button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body next"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left prev">
+              <i class="glyphicon glyphicon-chevron-left"></i>
+              Previous
+            </button>
+            <button type="button" class="btn btn-primary next">
+              Next
+              <i class="glyphicon glyphicon-chevron-right"></i>
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
