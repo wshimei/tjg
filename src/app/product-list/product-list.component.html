@@ -1,6 +1,6 @@
 <div *ngFor="let product of products">
 
-    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="!selectedCategory">
+    <div class="items-wrapper isotope row" *ngIf="!selectedCategory">
       <div class="item col-lg-4 col-md-6 col-12" *ngFor="let subCategory of product.subCategories">
         <div class="item-inner">
           <figure class="figure">
@@ -8,7 +8,7 @@
               <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
             </a>
             <a class="info-mask" (click)="onSelectSubCat(subCategory)">
-              <span class="desc" >{{itemDesc | slice:0:200}}</span>
+              <!-- <span class="desc" >category description</span> -->
               <span class="btn btn-cta btn-cta-primary">View product</span>
             </a>
             <!--//info-mask-->
@@ -27,7 +27,7 @@
     </div>
     <!--//items-wrapper-->
 
-    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="product.categoryName === selectedCategory">
+    <div class="items-wrapper isotope row" *ngIf="product.categoryName === selectedCategory">
       <div class="item col-lg-4 col-md-6 col-12" *ngFor="let subCategory of product.subCategories">
         <div class="item-inner">
           <figure class="figure">
@@ -35,7 +35,7 @@
               <img class="img-fluid" src="{{subCategory.imageLink}}" alt="{{subCategory.subCatName}}" />
             </a>
             <a class="info-mask" (click)="onSelectSubCat(subCategory)">
-              <span class="desc">{{itemDesc | slice:0:200}}</span>
+              <!-- <span class="desc">category description</span> -->
               <span class="btn btn-cta btn-cta-primary">View product</span>
             </a>
             <!--//info-mask-->
@@ -55,7 +55,7 @@
     <!--//items-wrapper-->
 
     <div *ngFor="let subCategory of product.subCategories">
-    <div class="items-wrapper isotope row" fxLayout="row" *ngIf="subCategory.subCatName === selectedCategory">
+    <div class="items-wrapper isotope row" *ngIf="subCategory.subCatName === selectedCategory">
 
       <div class="item col-lg-4 col-md-6 col-12" *ngFor="let item of subCategory.items">
         <div class="item-inner" >
