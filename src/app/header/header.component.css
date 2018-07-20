@@ -170,10 +170,18 @@
 
 @media (max-width: 767px) {
   .header h1.logo { 
-    font-size: 1.2em;
+    font-size: 1.7em;
     margin-top: 0;
   }
+  .header.header-shrink {
+    padding: inherit;
+  }
   .header.header-shrink h1.logo {
-    font-size: 1em;
+    font-size: 1.7em;
+    line-height: 48px;
+    transition: none;
+  }
+  .header.header-shrink .main-nav .nav .nav-item {
+    font-size: 1.7em;
   }
 }
