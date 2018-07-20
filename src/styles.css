@@ -2064,9 +2064,10 @@ select {
     padding: 0px inherit;
   }
   .header h1.logo {
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 2.4;
     float: none;
+    margin-top: 0;
   }
   .navbar-collapse {
     border-top: none;
@@ -2126,7 +2127,7 @@ select {
   .promo {
     padding-top: 100px;
   }
-  .header-wrapper-home {
+  .header-wrapper {
     min-height: 460px;
   }
   .promo .title .middle {
@@ -2212,6 +2213,9 @@ select {
   }
   .section-404 .intro {
     font-size: 20px;
+  }
+  .social-media {
+    width: 1.5em;
   }
 }
 /* Small devices (tablets, 768px and up) */

@@ -29,6 +29,7 @@
 .header.header-shrink h1.logo {
   font-size: 20px;
   line-height: 2.4;
+  transition: 0.6s ease-in-out;
 }
 .header.header-shrink .main-nav .nav .nav-item {
   font-size: 12px;
@@ -40,6 +41,9 @@
   font-weight: 800;
   font-size: 26px;
   line-height: 1.8;
+  margin-top: 10px;
+  width: 15em;
+  transition: 0.6s ease-in-out;
 }
 .header h1.logo a {
   color: #fff;
