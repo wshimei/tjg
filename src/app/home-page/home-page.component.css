@@ -6,8 +6,16 @@
   height: 5em;
 }
 
+.clientLogo {
+  max-height: 8em;
+}
+
 @media (max-width: 767px) {
   .upper {
-    height: 1.2em;
+    height: 1.5em;
+    align-self: center;
+  }
+  .header-wrapper-home {
+    min-height: 460px;
   }
 }
