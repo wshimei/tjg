@@ -2064,10 +2064,11 @@ select {
     padding: 0px inherit;
   }
   .header h1.logo {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 2.4;
     float: none;
     margin-top: 0;
+    /* width: 1em; */
   }
   .navbar-collapse {
     border-top: none;

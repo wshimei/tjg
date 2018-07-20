@@ -27,7 +27,7 @@
   padding: 0px inherit;
 }
 .header.header-shrink h1.logo {
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 2.4;
   transition: 0.6s ease-in-out;
 }
@@ -39,7 +39,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 1.5em;
   line-height: 1.8;
   margin-top: 10px;
   width: 15em;
@@ -166,4 +166,14 @@
 .header .main-nav .nav .dropdown-menu a:hover {
   background: #2a9bc1;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .header h1.logo { 
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  .header.header-shrink h1.logo {
+    font-size: 1em;
+  }
 }
