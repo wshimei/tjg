@@ -167,6 +167,11 @@
   background: #2a9bc1;
   color: #fff;
 }
+.facebook {
+  width: 30px; 
+  border: 0;
+  margin-right: 5px;
+}
 
 @media (max-width: 767px) {
   .header h1.logo { 
@@ -184,4 +189,13 @@
   .header.header-shrink .main-nav .nav .nav-item {
     font-size: 1.7em;
   }
+}
+
+@media (max-width: 320px) {
+  .facebook, .instagram {
+    width: 25px; 
+    border: 0;
+    padding-top: 5px;
+  }
+
 }
