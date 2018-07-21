@@ -42,8 +42,12 @@ export class ProductListComponent implements OnInit {
   }
 
   onSelectSubCat(subCat) {
-    this.router.navigate(['/products', subCat.subCatName]);
-    this.selectedCategory = subCat.subCatName;
+    if (subCat.items.length === 1) {
+      this.router.navigate(['/products/item', subCat.items[0].itemName]);
+    } else {
+      this.router.navigate(['/products', subCat.subCatName]);
+      this.selectedCategory = subCat.subCatName;
+    }
   }
 
   onSelectItem(item) {
