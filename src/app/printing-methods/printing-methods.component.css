@@ -1,24 +1,56 @@
 .header-wrapper-work {
-    background: #65758e url('../../assets/images/background/heading-background-1.jpg') no-repeat 50% top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 400px;
-  }
+  background: #65758e url('../../assets/images/background/heading-background-1.jpg') no-repeat 50% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}
 
-  .case-study-article {
-    padding-top: 0;
-  }
+.case-study-article {
+  padding-top: 0;
+}
 
-  .anchor {
-    display:block;
-   height:63px; /* this is the height of your header */
-   margin-top:-63px; /* this is again negative value of the height of your header */
-   visibility:hidden;
-  }
+.anchor {
+  display: block;
+  height: 63px;
+  /* this is the height of your header */
+  margin-top: -63px;
+  /* this is again negative value of the height of your header */
+  visibility: hidden;
+}
 
-  .section-subtitle {
-    font-size: 16px;
-    font-weight: 700;
-  }
+.services {
+  padding-top: 70px;
+}
+
+section {
+  padding: 10px 0;
+}
+
+.image {
+  padding-top: 10px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-group .btn {
+  background: #cbd1da;
+  color: #fff;
+  font-weight: 300;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.button-group .btn.last {
+  margin-right: 0;
+}
+.button-group .btn:hover {
+  background: #65758e;
+}
+.button-group .btn.is-checked {
+  background: #65758e;
+}
