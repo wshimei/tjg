@@ -1,3 +1,4 @@
+import { AskForQuoteComponent } from './ask-for-quote/ask-for-quote.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'products/item/:itemName', component: ProductDetailsComponent},
   { path: 'printing-methods', component: PrintingMethodsComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'request-for-quote', component: AskForQuoteComponent},
   { path: 'contact-us', component: ContactUsComponent },
   { path: '**', component: PageNotFoundComponent }
 ];

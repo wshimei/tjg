@@ -15,6 +15,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { QuestionService } from './faq/question.service';
 
 import { environment } from './../environments/environment';
+import { AskForQuoteComponent } from './ask-for-quote/ask-for-quote.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { environment } from './../environments/environment';
     routingComponents,
     CallToActionComponent,
     ProductListComponent,
+    AskForQuoteComponent,
   ],
   imports: [
     BrowserModule,

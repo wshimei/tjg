@@ -15,6 +15,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body.no-header-wrapper {
+  padding-top: 80px;
+}
 p {
   margin-bottom: 16px;
   line-height: 1.5;
@@ -167,7 +170,7 @@ select {
   width: 100%;
   top: 0;
   left: 0;
-  height: 650px;
+  height: 500px;
   background: #595959;
 }
 .bg-slider-wrapper .flexslider {
@@ -187,7 +190,7 @@ select {
 }
 .bg-slider-wrapper .flexslider .slide {
   display: block;
-  height: 650px;
+  height: 500px;
 }
 .bg-slider-wrapper .flexslider .slide.slide-1 {
   background: #65758e url('./assets/images/Image-1_darken.jpg') no-repeat 50% top;
@@ -499,6 +502,7 @@ select {
 }
 .testimonials .item .item-inner {
   padding: 30px;
+
 }
 .testimonials .item .quote-container {
   position: relative;
@@ -527,6 +531,7 @@ select {
 }
 .testimonials .item .meta .profile .name {
   font-size: 14px;
+  font-weight: 700;
   float: left;
   margin-top: 25px;
   max-width: 200px;
@@ -2244,7 +2249,7 @@ select {
     display: block;
   }
   .header-wrapper-home {
-    height: 650px;
+    height: 500px;
   }
   .main-nav {
     /* float: right !important; */
