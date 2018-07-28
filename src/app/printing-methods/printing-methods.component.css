@@ -48,9 +48,11 @@ section {
 .button-group .btn.last {
   margin-right: 0;
 }
+
 .button-group .btn:hover {
   background: #65758e;
 }
+
 .button-group .btn.is-checked {
   background: #65758e;
 }

@@ -7,16 +7,16 @@
       <p class="intro">This dedicated page is to offer you the different type of printing method for you to achieve the best quality and affordable pricing packages in the market.</p>
 
       <div id="filters" class="button-group clearfix">
-        <li class="btn button">
+        <li class="btn button" [ngx-scroll-to]="'silkscreen'">
           <a class="nav-link">Silkscreen</a>
         </li>
-        <li class="btn button">
+        <li class="btn button" [ngx-scroll-to]="'vinyl'">
           <a class="nav-link">Vinyl</a>
         </li>
-        <li class="btn button">
+        <li class="btn button" [ngx-scroll-to]="'embroidery'">
           <a class="nav-link">Embroidery</a>
         </li>
-        <li class="btn button">
+        <li class="btn button" [ngx-scroll-to]="'dtg'">
           <a class="nav-link">Direct-To-Garment</a>
         </li>
       </div>
@@ -37,7 +37,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <section class="content-section" id="silkscreen">
+              <section class="content-section">
                 <h3 class="section-title">Silkscreen Printing</h3>
                 <p>Silkscreen printing is one of the most common printing method. It is the process of transferring ink through the screen and onto the apparel.</p>
 
@@ -47,6 +47,8 @@
                   <li><i class="fa fa-arrow-circle-right"></i> Very cost efficient for large quantities</li>
                   <li><i class="fa fa-arrow-circle-right"></i> Wide variety of colours ; Able to follow Pantone colour</li>
                 </ul>
+
+                <div id="silkscreen">silkscreen</div>
 
                 <h4 class="section-subtitle">Disadvantages</h4>
                 <ul class="list-unstyled">
@@ -60,12 +62,12 @@
             <!--//content-section-->
             <div class="col-12 col-md-6">
                 <section>
-                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/Vinyl.png" alt="Silkscreen">
+                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/Vinyl.png" alt="Vinyl">
                 </section>
             </div>
-
+            
             <div class="col-12 col-md-6">
-              <section class="content-section" id="vinyl">
+              <section class="content-section">
                 <h3 class="section-title">Digital &amp; Vinyl Heat Transfer Printing</h3>
                 <p>Digital &amp; Vinyl Heat Transfer Printing is the process of using a film and transferring it onto the apparel via intense heat.</p>
                 <p><strong>A) For Digital Heat Transfer Printing, this printing method has the ability to do up multiple coloured designs and even gradient colours.</strong></p>
@@ -86,6 +88,8 @@
 
                 <p><strong>B) Vinyl Heat Transfer Printing are more common for class tee printing. It provides the cheapest price for customization such as Names & Numbers. At our company, we use top notch quality PU material films instead of PVC material films. PU Films are softer, more flexible and more durable.</strong></p>
 
+                <div id="vinyl">vinyl</div>
+
                 <h4 class="section-subtitle">Advantages</h4>
                 <ul class="list-unstyled">
                   <li><i class="fa fa-arrow-circle-right"></i> Versatile and can be printed on many material</li>
@@ -102,14 +106,14 @@
               <!--//content-section-->
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" id="embroidery">
                 <section>
-                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/Embroidery.png" alt="Silkscreen">
+                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/Embroidery.png" alt="Embroidery">
                 </section>
             </div>
 
             <div class="col-12 col-md-6">
-              <section class="content-section" id="embroidery">
+              <section class="content-section">
                 <h3 class="section-title">Embroidery</h3>
                 <p>Embroidery is the process of sewing and threading the design onto the apparel. It adds texture which creates a pop-up effect. It provides an impression of quality and professionalism.</p>
 
@@ -131,14 +135,14 @@
             </div>
             <!--//content-section-->
 
-            <div class="col-12 col-md-6">
+            <div id="dtg" class="col-12 col-md-6">
                 <section>
-                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/DTG.png" alt="Silkscreen">
+                    <img class="col-md-11 col-12 image" src="../assets/images/printing-methods/DTG.png" alt="DTG">
                 </section>
             </div>
 
             <div class="col-12 col-md-6">
-              <section class="content-section" id="dtg">
+              <section class="content-section">
                 <h3 class="section-title">Direct-To-Garment Printing (DTG)</h3>
                 <p>Direct-To-Garment Printing (DTG) is the transferred of Ink directly into the garment via Inkjet Technology.</p>
 
@@ -153,6 +157,7 @@
                   <li><i class="fa fa-arrow-circle-right"></i> Expensive and not cost friendly for large quantity</li>
                 </ul>
               </section>
+
               <!--//content-section-->
             </div>
           </div>
@@ -164,6 +169,7 @@
       <!--//row-->
     </div>
     <!--//container-->
+
   </article>
   <!--//case-study-->
   <app-call-to-action></app-call-to-action>

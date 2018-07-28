@@ -17,6 +17,8 @@ import { QuestionService } from './faq/question.service';
 import { environment } from './../environments/environment';
 import { AskForQuoteComponent } from './ask-for-quote/ask-for-quote.component';
 
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import { AskForQuoteComponent } from './ask-for-quote/ask-for-quote.component';
     // ProductRoutingModule,
     // ProductModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    ScrollToModule.forRoot()
   ],
   providers: [QuestionService],
   bootstrap: [AppComponent]
