@@ -6,3 +6,19 @@
     background-size: cover;
     min-height: 400px;
   }
+
+  .case-study-article {
+    padding-top: 0;
+  }
+
+  .anchor {
+    display:block;
+   height:63px; /* this is the height of your header */
+   margin-top:-63px; /* this is again negative value of the height of your header */
+   visibility:hidden;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    font-weight: 700;
+  }
