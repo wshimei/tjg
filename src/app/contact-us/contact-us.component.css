@@ -6,3 +6,7 @@
   background-size: cover;
   min-height: 400px;
 }
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
