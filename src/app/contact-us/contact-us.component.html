@@ -11,7 +11,7 @@
             </ul>
 
         
-            <form id="gform" class="contact-form form validate" method="POST" action="https://script.google.com/macros/s/AKfycbyOXMeJEI7-9pGNwJNnexXFEtfha8X2Sw5759Dz7OAFx_Dr8fA/exec" novalidate>
+            <form id="gform" class="contact-form form validate" method="POST" action="https://script.google.com/macros/s/AKfycbyOXMeJEI7-9pGNwJNnexXFEtfha8X2Sw5759Dz7OAFx_Dr8fA/exec">
                 <div class="row text-center">
                     <div class="contact-form-inner col-lg-8 col-12 mr-lg-auto ml-lg-auto">
                         <div class="row">
@@ -38,7 +38,7 @@
                                 <textarea class="form-control" id="cmessage" name="Message" placeholder="Enter your message" rows="12" required></textarea>
                             </div>
                              <div class="col-12 form-group">
-                                <button type="submit" class="btn btn-block btn-cta btn-cta-primary">Send Message</button>
+                                <button type="submit" class="btn btn-block btn-cta btn-cta-primary" (click)="$event.stopPropagation()">Send Message</button>
                             </div>
                         </div><!--//row-->
                     </div>
