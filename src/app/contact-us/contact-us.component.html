@@ -16,29 +16,29 @@
                     <div class="contact-form-inner col-lg-8 col-12 mr-lg-auto ml-lg-auto">
                         <div class="row">
                                 <label class="sr-only">Keep this field blank</label>
-                                <input id="honeypot" type="text" name="honeypot" value="" />
+                                <input id="honeypot" type="text" name="honeypot" value="" [(ngModel)]="contactUs.honeypot" />
                             <div class="col-md-6 col-12 form-group">
                                 <label class="sr-only" for="mce-FNAME">Your firstname</label>
-                                <input type="text" class="form-control" id="mce-FNAME" name="FirstName" placeholder="Your firstname" required>
+                                <input type="text" class="form-control" id="mce-FNAME" name="FirstName" placeholder="Your firstname" [(ngModel)]="contactUs.firstName" required>
                             </div>
                             <div class="col-md-6 col-12 form-group">
                                 <label class="sr-only" for="mce-LNAME">Your lastname</label>
-                                <input type="text" class="form-control" id="mce-LNAME" name="LastName" placeholder="Your lastname" required>
+                                <input type="text" class="form-control" id="mce-LNAME" name="LastName" placeholder="Your lastname" [(ngModel)]="contactUs.lastName" required>
                             </div>
                             <div class="col-md-6 col-12 form-group">
                                 <label class="sr-only" for="mce-MOBILE">Your mobile number</label>
-                                <input type="tel" class="form-control" id="mce-MOBILE" name="Mobile" placeholder="Your mobile" required>
+                                <input type="tel" class="form-control" id="mce-MOBILE" name="Mobile" placeholder="Your mobile" [(ngModel)]="contactUs.mobile" required>
                             </div>
                             <div class="col-md-6 col-12 form-group">
                                 <label class="sr-only" for="mce-EMAIL">Your email address</label>
-                                <input type="email" class="form-control" id="mce-EMAIL" name="Email" placeholder="Your email address" required>
+                                <input type="email" class="form-control" id="mce-EMAIL" name="Email" placeholder="Your email address" [(ngModel)]="contactUs.email" required>
                             </div>
                             <div class="col-12 form-group">
                                 <label class="sr-only" for="mce-MESSAGE">Your message</label>
-                                <textarea class="form-control" id="cmessage" name="Message" placeholder="Enter your message" rows="12" required></textarea>
+                                <textarea class="form-control" id="cmessage" name="Message" placeholder="Enter your message" rows="12" [(ngModel)]="contactUs.message" required></textarea>
                             </div>
                              <div class="col-12 form-group">
-                                <button type="submit" class="btn btn-block btn-cta btn-cta-primary" (click)="$event.stopPropagation()">Send Message</button>
+                                <button type="submit" class="btn btn-block btn-cta btn-cta-primary" >Send Message</button>
                             </div>
                         </div><!--//row-->
                     </div>
