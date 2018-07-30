@@ -47,7 +47,6 @@
               "src/js/owl-custom.js",
               "src/plugins/Gallery/js/jquery.blueimp-gallery.min.js",
               "src/plugins/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js",
-              "src/js/form-submission-handler.js",
               "src/js/main.js"
             ]
           },
