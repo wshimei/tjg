@@ -18,7 +18,6 @@ import { environment } from './../environments/environment';
 import { AskForQuoteComponent } from './ask-for-quote/ask-for-quote.component';
 
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,8 +32,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule,
     // ProductRoutingModule,
     // ProductModule,
     AngularFireModule.initializeApp(environment.firebase),
