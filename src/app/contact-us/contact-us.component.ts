@@ -120,7 +120,7 @@ export class ContactUsComponent implements AfterViewInit {
     //   console.log("Contact form submission handler loaded successfully.");
     // bind to the submit event of our form
     const form = document.getElementById('gform');
-    form.addEventListener('submit', this.handleFormSubmit, false);
+    // form.addEventListener('submit', this.handleFormSubmit, false);
   }
   // document.addEventListener('DOMContentLoaded', loaded, false);
 

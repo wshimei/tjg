@@ -37,6 +37,51 @@
     "id": 8,
     "question": "How much is the cost per shirt ?",
     "answer": "It varies according to these factors\n1) Quantity\n2) Printing Location (Eg. Front / Back / Sleeve)\n3) Design (According to number of colours)\n4) Dimension of Design"
+  },
+  {
+    "id": 9,
+    "question": "Can I request for a physical sample ?",
+    "answer": "Yes, only one physical sample is provided for orders of 1000 pieces and above.\n\nFor fewer orders, TJG will provide a copy of digital artwork before order confirmation.\n\nTJG welcome customers to view sample materials or apparel we have at our office."
+  },
+  {
+    "id": 10,
+    "question": "Are the white shirts sheer?",
+    "answer": "Generally, white shirts are sheer and translucent. We advise customers who are concerned about the sheerness of white shirts to swap to other dull coloured shirts or view sample materials at our office. Please ensure you address any questions or issues regarding white shirt orders beforehand. We will not be held responsible once orders are processed."
+  },
+  {
+    "id": 11,
+    "question": "Garment Manufacturing Flaws",
+    "answer": "We are not responsible for apparel inconsistencies related to shade of colour, sizes and quality. As garments are produced in large different batches, one batch may differ from another."
+  },
+  {
+    "id": 12,
+    "question": "Stock Balance",
+    "answer": "Only once deposit is paid can we ensure the stock availability.\n\nStock availability are subjected to final stock count upon paid deposit. We will not be held liable for delays due to garments which are out of stock or discontinued apparels."
+  },
+  {
+    "id": 13,
+    "question": "Return & Exchange Policy",
+    "answer": "Upon receipt of goods, we only allow a maximum of 2 days to sound off for any defects. If a request for reprint is met by TJG, the customer must return the defected goods in the original condition.\n\nFollowing conditions:\n1) Manufacturing defects (Eg.Holes)\n2) Printing Error due to our neglience\n3) Wrong Apparel/Size/Colour  (Proof of original purchase to be shown)\nWe will not be held responsible for any conditions :\n1) Wrong Apparel/Size/Colour due to Customer's neglience\n2) Change of mind\n3) Tone/Shade of Apparel colour are different\n4) Printing Colour, Apparel Material & Quality not to customer's expectation\n6) Wear & Tear due to customer's neglience"
+  },
+  {
+    "id": 14,
+    "question": "Reprint Policy",
+    "answer": "Generally, repeat orders pricing follows :\n1-4 pieces ($3 more each)\n5-9 pieces ($2 more each)\nFor quantities of above 10 pricing, will be quoted accordingly\n*Design are only kept for 3 months*\nPlease contact us to know the exact charges. Pricing are subjected to changes."
+  },
+  {
+    "id": 15,
+    "question": "Refund Policy",
+    "answer": "We will not refund regardless."
+  },
+  {
+    "id": 16,
+    "question": "Font Usage",
+    "answer": "Please specify and provide fonts for your respective designs.\nFor customize names or numbers. Please do not select fonts that are cracked, sketchy, faded or too thin.\nIt is the customer's responsibility to check and choose the correct font (Eg. Upper casing / Lower casing) ; Some font comes only in uppercasing. TJG will follow accordingly to the customize list provided and will not be held responsible for any error."
+  },
+  {
+    "id": 17,
+    "question": "Artwork Approval",
+    "answer": "Digital artwork will be submitted for customer approval. It is the customer's responsibility to verify that all information and details are correct. This includes checking for spelling, artwork dimensions and design. No further amendments can be made after confirmation of artwork proposal. TJG will not be held liable for any cost associated with reprinting or setting up new design."
   }
 
 ]
